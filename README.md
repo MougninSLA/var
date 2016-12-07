@@ -1,2 +1,2 @@
-# var_www
-Contenu de /var/www/
+var
+Contenu de /VAR de SYM
