@@ -1,0 +1,26 @@
+From root@secureyourmail.itinet.fr  Wed Nov  2 11:13:21 2016
+Return-Path: <root@secureyourmail.itinet.fr>
+X-Original-To: hassane@secureyourmail.itinet.fr
+Delivered-To: hassane@secureyourmail.itinet.fr
+Received: from securetourmail.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 0D95F2E0071
+	for <hassane@secureyourmail.itinet.fr>; Wed,  2 Nov 2016 11:12:55 +0100 (CET)
+Message-Id: <20161102101312.0D95F2E0071@SecureYourMail>
+Date: Wed,  2 Nov 2016 11:12:55 +0100 (CET)
+From: root@secureyourmail.itinet.fr
+
+blabla
+
+From zalika@secureyourmail.itinet.fr  Wed Nov  2 11:17:04 2016
+Return-Path: <zalika@secureyourmail.itinet.fr>
+X-Original-To: hassane@secureyourmail.itinet.fr
+Delivered-To: hassane@secureyourmail.itinet.fr
+Received: from secureyourmail.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 5C2132E0072
+	for <hassane@secureyourmail.itinet.fr>; Wed,  2 Nov 2016 11:16:39 +0100 (CET)
+Message-Id: <20161102101657.5C2132E0072@SecureYourMail>
+Date: Wed,  2 Nov 2016 11:16:39 +0100 (CET)
+From: zalika@secureyourmail.itinet.fr
+
+test
+

@@ -1,0 +1,182 @@
+  Folder: /var/vmail//mbox						    458
+  Folder: /var/vmail//mbox						    464
+  Folder: /var/vmail//mbox						    464
+procmail: Unable to treat as directory ""
+  Folder: spams/msg.zAgJ						    468
+  Folder: /var/vmail//mbox						    532
+procmail: Unable to treat as directory ""
+  Folder: spams/msg.1AgJ						    466
+procmail: Unable to treat as directory ""
+  Folder: spams/msg.2AgJ						    465
+procmail: Unable to treat as directory ""
+  Folder: spams/msg.3AgJ						    467
+  Folder: /var/vmail//mbox						    511
+  Folder: /var/vmail//mbox						    538
+  Folder: /var/vmail//mbox						    538
+procmail: Unable to treat as directory ""
+  Folder: spams/msg.4AgJ						    532
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: No match on "^From.*@uunet"
+procmail: No match on "^X-Spam-Status: Yes"
+procmail: No match on "(^((Original-)?(Resent-)?(To|Cc|Bcc)|(X-Envelope|Apparently(-Resent)?)-To):(.*[^a-zA-Z])?).*"
+procmail: Assigning "PATH=/home/symmail/bin:/usr/local/bin:/usr/bin:/bin"
+procmail: Locking "/var/vmail//mbox.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail//mbox"
+procmail: Opening "/var/vmail//mbox"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail//mbox.lock"
+procmail: Notified comsat: "symmail@3505:/var/vmail//mbox"
+  Folder: /var/vmail//mbox						    534
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: No match on "^From.*@uunet"
+procmail: No match on "^X-Spam-Status: Yes"
+procmail: No match on "(^((Original-)?(Resent-)?(To|Cc|Bcc)|(X-Envelope|Apparently(-Resent)?)-To):(.*[^a-zA-Z])?).*"
+procmail: Assigning "PATH=/home/symmail/bin:/usr/local/bin:/usr/bin:/bin"
+procmail: Locking "/var/vmail//mbox.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail//mbox"
+procmail: Opening "/var/vmail//mbox"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail//mbox.lock"
+procmail: Notified comsat: "symmail@4039:/var/vmail//mbox"
+  Folder: /var/vmail//mbox						    470
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: No match on "^From.*@uunet"
+procmail: No match on "^X-Spam-Status: Yes"
+procmail: No match on "(^((Original-)?(Resent-)?(To|Cc|Bcc)|(X-Envelope|Apparently(-Resent)?)-To):(.*[^a-zA-Z])?).*"
+procmail: Assigning "PATH=/home/symmail/bin:/usr/local/bin:/usr/bin:/bin"
+procmail: Locking "/var/vmail//mbox.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail//mbox"
+procmail: Opening "/var/vmail//mbox"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail//mbox.lock"
+procmail: Notified comsat: "symmail@4509:/var/vmail//mbox"
+  Folder: /var/vmail//mbox						    542
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: Locking "spamassassin.lock"
+procmail: Executing "/usr/bin/spamc"
+procmail: [23686] Tue Nov 15 14:08:19 2016
+procmail: Unlocking "spamassassin.lock"
+procmail: No match on "^X-Spam-Status: Yes"
+procmail: Assigning "PATH=/home/symmail/bin:/usr/local/bin:/usr/bin:/bin"
+procmail: Locking "/var/vmail//mbox.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail//mbox"
+procmail: Opening "/var/vmail//mbox"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail//mbox.lock"
+procmail: Notified comsat: "symmail@5051:/var/vmail//mbox"
+  Folder: /var/vmail//mbox						    560
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: Match on "^From.*ste@live.fr"
+procmail: Assigning "LASTFOLDER=spams/msg.HBgJ"
+procmail: Opening "spams/msg.HBgJ"
+procmail: Acquiring kernel-lock
+procmail: Unable to treat as directory ""
+procmail: Notified comsat: "symmail@0:/var/vmail//spams/msg.HBgJ"
+  Folder: spams/msg.HBgJ						    532
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: Locking "spamassassin.lock"
+procmail: Executing "/usr/bin/spamc"
+procmail: [24365] Tue Nov 15 14:17:01 2016
+procmail: Unlocking "spamassassin.lock"
+procmail: No match on "^X-Spam-Status: Yes"
+procmail: Assigning "PATH=/home/symmail/bin:/usr/local/bin:/usr/bin:/bin"
+procmail: Locking "/var/vmail//mbox.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail//mbox"
+procmail: Opening "/var/vmail//mbox"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail//mbox.lock"
+procmail: Notified comsat: "symmail@5611:/var/vmail//mbox"
+  Folder: /var/vmail//mbox						    536
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: Locking "spamassassin.lock"
+procmail: Executing "/usr/bin/spamc"
+procmail: [24701] Tue Nov 15 14:22:17 2016
+procmail: Unlocking "spamassassin.lock"
+procmail: No match on "^X-Spam-Status: Yes"
+procmail: Assigning "PATH=/home/symmail/bin:/usr/local/bin:/usr/bin:/bin"
+procmail: Locking "/var/vmail/mbox.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail/mbox"
+procmail: Opening "/var/vmail/mbox"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail/mbox.lock"
+procmail: Notified comsat: "symmail@6147:/var/vmail/mbox"
+  Folder: /var/vmail/mbox						    532
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: Locking "spamassassin.lock"
+procmail: Executing "/usr/bin/spamc"
+procmail: Unlocking "spamassassin.lock"
+procmail: Match on "^X-Spam-Status: Yes"
+procmail: Locking "/spams.lock"
+procmail: Assigning "LASTFOLDER=/spams"
+procmail: Opening "/spams"
+procmail: Acquiring kernel-lock
+procmail: [25127] Tue Nov 15 14:26:26 2016
+procmail: Unlocking "/spams.lock"
+procmail: Notified comsat: "symmail@0:/spams"
+ Subject: *****SPAM***** 
+  Folder: /spams							   1435
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: Locking "spamassassin.lock"
+procmail: Executing "/usr/bin/spamc"
+procmail: Unlocking "spamassassin.lock"
+procmail: Match on "^X-Spam-Status: Yes"
+procmail: Locking "/var/vmail/spams.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail/spams/msg.JBgJ"
+procmail: Opening "/var/vmail/spams/msg.JBgJ"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail/spams.lock"
+procmail: Notified comsat: "symmail@0:/var/vmail/spams/msg.JBgJ"
+ Subject: *****SPAM***** 
+  Folder: /var/vmail/spams/msg.JBgJ					   1435
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: Match on "^X-Spam-Status: Yes"
+procmail: Locking "/var/vmail/spams.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail/spams/msg.KBgJ"
+procmail: Opening "/var/vmail/spams/msg.KBgJ"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail/spams.lock"
+procmail: Notified comsat: "symmail@0:/var/vmail/spams/msg.KBgJ"
+ Subject: *****SPAM***** 
+  Folder: /var/vmail/spams/msg.KBgJ					   1380
+procmail: Unlocking "/home/symmail/.lockmail"
+procmail: Assigning "LOCKFILE=/home/symmail/.lockmail"
+procmail: Locking "/home/symmail/.lockmail"
+procmail: No match on "^From.*ste@live.fr"
+procmail: Match on "^X-Spam-Status: Yes"
+procmail: Locking "/var/vmail/spams.lock"
+procmail: Assigning "LASTFOLDER=/var/vmail/spams/msg.LBgJ"
+procmail: Opening "/var/vmail/spams/msg.LBgJ"
+procmail: Acquiring kernel-lock
+procmail: Unlocking "/var/vmail/spams.lock"
+procmail: Notified comsat: "symmail@0:/var/vmail/spams/msg.LBgJ"
+ Subject: *****SPAM***** 
+  Folder: /var/vmail/spams/msg.LBgJ					   1375
+procmail: Unlocking "/home/symmail/.lockmail"

@@ -1,0 +1,18 @@
+From adolphe@secureyourmail Fri Oct 28 14:41:08 2016
+Return-path: <adolphe@secureyourmail>
+Envelope-to: root@secureyourmail
+Delivery-date: Fri, 28 Oct 2016 14:41:08 +0200
+Received: from adolphe by SecureYourMail.itinet.fr with local (Exim 4.84_2)
+	(envelope-from <adolphe@secureyourmail>)
+	id 1c06T6-00020a-78
+	for root@secureyourmail; Fri, 28 Oct 2016 14:41:08 +0200
+To: root@secureyourmail
+Auto-Submitted: auto-generated
+Subject: *** SECURITY information for SecureYourMail.itinet.fr ***
+From: Serge Mougnin <adolphe@secureyourmail>
+Message-Id: <E1c06T6-00020a-78@SecureYourMail.itinet.fr>
+Date: Fri, 28 Oct 2016 14:41:08 +0200
+
+SecureYourMail.itinet.fr : Oct 28 14:41:08 : adolphe : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/adolphe ; USER=root ; COMMAND=/bin/bash
+
+

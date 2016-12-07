@@ -1,0 +1,31 @@
+Return-Path: <step@live.fr>
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	SecureYourMail.itinet.fr
+X-Spam-Flag: YES
+X-Spam-Level: **************************************************
+X-Spam-Status: Yes, score=1000.2 required=5.0 tests=ALL_TRUSTED,BAD_ENC_HEADER,
+	FREEMAIL_FROM,GTUBE,MISSING_HEADERS,TVD_SPACE_RATIO autolearn=no
+	autolearn_force=no version=3.4.0
+X-Spam-Report: =?ISO-8859-1?Q?
+	* -1.0 ALL_TRUSTED Passed through trusted hosts only via SMTP
+	* 1000 GTUBE BODY: Test g=e9n=e9rique de courrier non sollict=e9 en masse
+	*  0.0 BAD_ENC_HEADER Message has bad MIME encoding in the header
+	*  1.2 MISSING_HEADERS Le message ne comporte pas l'en-t=eate To:
+	*  0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	*      (step[at]live.fr)
+	*  0.0 TVD_SPACE_RATIO No description available.?=
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 285E02E0089; Tue, 15 Nov 2016 14:28:27 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 82B6D2E0082
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 14:28:17 +0100 (CET)
+Message-Id: <20161115132824.82B6D2E0082@SecureYourMail>
+Date: Tue, 15 Nov 2016 14:28:17 +0100 (CET)
+From: step@live.fr
+Subject: *****SPAM***** 
+X-Spam-Prev-Subject: (nonexistent)
+X-Spam-Prev-Subject: *****SPAM***** 
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+

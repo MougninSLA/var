@@ -1,0 +1,18 @@
+Return-Path: <steph@live.fr>
+X-Original-To: zalika@secureyourmail.itinet.fr
+Delivered-To: zalika@secureyourmail.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id B2E392E0076; Wed,  9 Nov 2016 11:48:13 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	SecureYourMail.itinet.fr
+X-Spam-Level: *
+X-Spam-Status: No, score=2.0 required=5.0 tests=ALL_TRUSTED,FREEMAIL_FROM,
+	MISSING_HEADERS,MISSING_SUBJECT autolearn=no autolearn_force=no version=3.4.0
+Received: from secureyourmail.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 0C7E82E0071
+	for <zalika@secureyourmail.itinet.fr>; Wed,  9 Nov 2016 11:47:55 +0100 (CET)
+Message-Id: <20161109104810.0C7E82E0071@SecureYourMail>
+Date: Wed,  9 Nov 2016 11:47:55 +0100 (CET)
+From: steph@live.fr
+
+sgsgg

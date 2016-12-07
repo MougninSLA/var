@@ -1,0 +1,13 @@
+Return-Path: <ste@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 657E22E00C8; Mon, 14 Nov 2016 13:34:28 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id BEA732E00C5
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:34:05 +0100 (CET)
+Message-Id: <20161114123422.BEA732E00C5@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:34:05 +0100 (CET)
+From: ste@live.fr
+
+sgg
+

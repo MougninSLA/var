@@ -1,0 +1,427 @@
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id E55662E00AA; Tue, 15 Nov 2016 10:17:53 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 4DE222E009E
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 10:17:36 +0100 (CET)
+Message-Id: <20161115091748.4DE222E009E@SecureYourMail>
+Date: Tue, 15 Nov 2016 10:17:36 +0100 (CET)
+From: step@live.fr
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id DB7E02E00C4; Mon, 14 Nov 2016 13:27:10 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 6758F2E00C1
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:26:55 +0100 (CET)
+Message-Id: <20161114122705.6758F2E00C1@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:26:55 +0100 (CET)
+From: step@live.fr
+
+sgg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id D6C642E00CA; Mon, 14 Nov 2016 13:36:19 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id D56902E00C7
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:36:01 +0100 (CET)
+Message-Id: <20161114123614.D56902E00C7@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:36:01 +0100 (CET)
+From: step@live.fr
+
+sgg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 5C18C2E00C2; Mon, 14 Nov 2016 13:17:01 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 3BEE62E00BF
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:16:32 +0100 (CET)
+Message-Id: <20161114121656.3BEE62E00BF@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:16:32 +0100 (CET)
+From: step@live.fr
+
+sgs
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 0C98A2E00C6; Mon, 14 Nov 2016 13:30:16 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id E8C0A2E00C3
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:29:53 +0100 (CET)
+Message-Id: <20161114123011.E8C0A2E00C3@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:29:53 +0100 (CET)
+From: step@live.fr
+
+sgsg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id C729B2E00BE; Mon, 14 Nov 2016 13:10:00 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 57D342E00BC
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:09:45 +0100 (CET)
+Message-Id: <20161114120955.57D342E00BC@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:09:45 +0100 (CET)
+From: step@live.fr
+
+sgsg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id C37C22E00CC; Mon, 14 Nov 2016 13:53:50 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 91A912E00C9
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:53:36 +0100 (CET)
+Message-Id: <20161114125345.91A912E00C9@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:53:36 +0100 (CET)
+From: step@live.fr
+
+sgsg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id CF5A22E00C0; Mon, 14 Nov 2016 13:14:16 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 6BE302E00BD
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:14:02 +0100 (CET)
+Message-Id: <20161114121411.6BE302E00BD@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:14:02 +0100 (CET)
+From: step@live.fr
+
+sgg
+
+Return-Path: <ste√@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 19A112E00A9; Mon, 14 Nov 2016 12:53:40 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 7149E2E0096
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 12:53:26 +0100 (CET)
+Message-Id: <20161114115335.7149E2E0096@SecureYourMail>
+Date: Mon, 14 Nov 2016 12:53:26 +0100 (CET)
+From: ste√@live.fr
+
+sgs
+
+Return-Path: <steep@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 1190D2E00B5; Mon, 14 Nov 2016 13:01:15 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id D57FE2E00AC
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:00:54 +0100 (CET)
+Message-Id: <20161114120109.D57FE2E00AC@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:00:54 +0100 (CET)
+From: steep@live.fr
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id F316D2E00BA; Mon, 14 Nov 2016 13:05:29 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id C43122E00B7
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:05:14 +0100 (CET)
+Message-Id: <20161114120524.C43122E00B7@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:05:14 +0100 (CET)
+From: step@live.fr
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 823C12E00E9; Mon, 14 Nov 2016 15:43:43 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 972162E00E6
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 15:43:19 +0100 (CET)
+Message-Id: <20161114144338.972162E00E6@SecureYourMail>
+Date: Mon, 14 Nov 2016 15:43:19 +0100 (CET)
+From: step@live.fr
+
+sgsg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 372B12E00CE; Mon, 14 Nov 2016 13:55:45 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 330EA2E00CB
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:55:31 +0100 (CET)
+Message-Id: <20161114125541.330EA2E00CB@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:55:31 +0100 (CET)
+From: step@live.fr
+
+sg
+
+Return-Path: <stepg@live.fr>
+Delivered-To: hassane1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 78AD32E00AD; Sun, 13 Nov 2016 22:48:05 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id E7AA02E00A4
+	for <hassane1@sym.itinet.fr>; Sun, 13 Nov 2016 22:47:05 +0100 (CET)
+Message-Id: <20161113214759.E7AA02E00A4@SecureYourMail>
+Date: Sun, 13 Nov 2016 22:47:05 +0100 (CET)
+From: stepg@live.fr
+
+sgsg
+
+Return-Path: <steephe@live.fr>
+Delivered-To: hassane1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 7D5072E00A6; Sun, 13 Nov 2016 20:59:13 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id DBF6D2E009F
+	for <hassane1@sym.itinet.fr>; Sun, 13 Nov 2016 20:58:42 +0100 (CET)
+Message-Id: <20161113195857.DBF6D2E009F@SecureYourMail>
+Date: Sun, 13 Nov 2016 20:58:42 +0100 (CET)
+From: steephe@live.fr
+
+pourqoi ca marce pas ?
+
+Return-Path: <st@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 7FCB32E00E7; Mon, 14 Nov 2016 15:27:06 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id C16B22E00C9
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 15:26:53 +0100 (CET)
+Message-Id: <20161114142701.C16B22E00C9@SecureYourMail>
+Date: Mon, 14 Nov 2016 15:26:53 +0100 (CET)
+From: st@live.fr
+
+sg
+
+Return-Path: <stteph@live.fr>
+Delivered-To: hassane1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id A944B2E00B6; Mon, 14 Nov 2016 10:34:22 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id B34C12E00B1
+	for <hassane1@sym.itinet.fr>; Mon, 14 Nov 2016 10:34:08 +0100 (CET)
+Message-Id: <20161114093417.B34C12E00B1@SecureYourMail>
+Date: Mon, 14 Nov 2016 10:34:08 +0100 (CET)
+From: stteph@live.fr
+
+sgsg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id AE2842E00DE; Mon, 14 Nov 2016 14:51:04 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 90D2B2E00DB
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 14:50:50 +0100 (CET)
+Message-Id: <20161114135059.90D2B2E00DB@SecureYourMail>
+Date: Mon, 14 Nov 2016 14:50:50 +0100 (CET)
+From: step@live.fr
+
+sgsg
+
+Return-Path: <stepen@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 2C3572E00B1; Mon, 14 Nov 2016 12:56:13 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 4B3632E009A
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 12:55:59 +0100 (CET)
+Message-Id: <20161114115608.4B3632E009A@SecureYourMail>
+Date: Mon, 14 Nov 2016 12:55:59 +0100 (CET)
+From: stepen@live.fr
+
+sgsg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 4E2822E00D4; Mon, 14 Nov 2016 14:09:39 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id A49342E00D1
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 14:09:24 +0100 (CET)
+Message-Id: <20161114130934.A49342E00D1@SecureYourMail>
+Date: Mon, 14 Nov 2016 14:09:24 +0100 (CET)
+From: step@live.fr
+
+sg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id B9D9A2E00E2; Mon, 14 Nov 2016 15:09:03 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 37BD72E00DF
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 15:08:48 +0100 (CET)
+Message-Id: <20161114140859.37BD72E00DF@SecureYourMail>
+Date: Mon, 14 Nov 2016 15:08:48 +0100 (CET)
+From: step@live.fr
+
+sg
+
+Return-Path: <steph@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id E79872E00E0; Mon, 14 Nov 2016 15:07:19 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 239802E00DD
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 15:07:03 +0100 (CET)
+Message-Id: <20161114140714.239802E00DD@SecureYourMail>
+Date: Mon, 14 Nov 2016 15:07:03 +0100 (CET)
+From: steph@live.fr
+
+sgsg
+
+Return-Path: <steeph@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 9A7A32E00B8; Mon, 14 Nov 2016 13:04:45 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 433832E00B3
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 13:04:26 +0100 (CET)
+Message-Id: <20161114120436.433832E00B3@SecureYourMail>
+Date: Mon, 14 Nov 2016 13:04:26 +0100 (CET)
+From: steeph@live.fr
+
+1478681869.V6817I260011M368562.SecureYourMail
+
+Return-Path: <s@live.Fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 6FB702E00F5; Mon, 14 Nov 2016 18:26:02 +0100 (CET)
+Received: from sym.itinet.Fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 1F4E82E00F2
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 18:25:48 +0100 (CET)
+Message-Id: <20161114172558.1F4E82E00F2@SecureYourMail>
+Date: Mon, 14 Nov 2016 18:25:48 +0100 (CET)
+From: s@live.Fr
+
+Return-Path: <se@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 8D6F72E00F3; Mon, 14 Nov 2016 18:24:15 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 28DCB2E00F0
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 18:23:57 +0100 (CET)
+Message-Id: <20161114172409.28DCB2E00F0@SecureYourMail>
+Date: Mon, 14 Nov 2016 18:23:57 +0100 (CET)
+From: se@live.fr
+
+sgg
+
+Return-Path: <s@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id AA72A2E00F7; Mon, 14 Nov 2016 18:27:03 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id B88762E00F4
+	for <test1@sym.itinet.fr>; Mon, 14 Nov 2016 18:26:40 +0100 (CET)
+Message-Id: <20161114172656.B88762E00F4@SecureYourMail>
+Date: Mon, 14 Nov 2016 18:26:40 +0100 (CET)
+From: s@live.fr
+
+sg.
+
+Return-Path: <steephe@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 7FADE2E0085; Tue, 15 Nov 2016 10:49:41 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id A15962E0076
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 10:49:27 +0100 (CET)
+Message-Id: <20161115094936.A15962E0076@SecureYourMail>
+Date: Tue, 15 Nov 2016 10:49:27 +0100 (CET)
+From: steephe@live.fr
+
+sgsg
+
+Return-Path: <steeph@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id B1E1B2E0089; Tue, 15 Nov 2016 11:28:03 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id B1CC72E0082
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 11:27:40 +0100 (CET)
+Message-Id: <20161115102750.B1CC72E0082@SecureYourMail>
+Date: Tue, 15 Nov 2016 11:27:40 +0100 (CET)
+From: steeph@live.fr
+
+kkdld
+
+Return-Path: <steeph@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 82D122E0089; Tue, 15 Nov 2016 11:35:21 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id ADDB02E0082
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 11:35:04 +0100 (CET)
+Message-Id: <20161115103512.ADDB02E0082@SecureYourMail>
+Date: Tue, 15 Nov 2016 11:35:04 +0100 (CET)
+From: steeph@live.fr
+
+sgsg
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 4B8642E0089; Tue, 15 Nov 2016 11:45:17 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 888DD2E0082
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 11:44:58 +0100 (CET)
+Message-Id: <20161115104506.888DD2E0082@SecureYourMail>
+Date: Tue, 15 Nov 2016 11:44:58 +0100 (CET)
+From: step@live.fr
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+
+Return-Path: <pap@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 76B6E2E0089; Tue, 15 Nov 2016 11:52:33 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 31F692E0082
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 11:52:15 +0100 (CET)
+Message-Id: <20161115105222.31F692E0082@SecureYourMail>
+Date: Tue, 15 Nov 2016 11:52:15 +0100 (CET)
+From: pap@live.fr
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+
+Return-Path: <steephe@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 12EA12E0089; Tue, 15 Nov 2016 13:45:43 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id 1CFF12E0082
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 13:45:29 +0100 (CET)
+Message-Id: <20161115124537.1CFF12E0082@SecureYourMail>
+Date: Tue, 15 Nov 2016 13:45:29 +0100 (CET)
+From: steephe@live.fr
+
+sgs
+
+Return-Path: <step@live.fr>
+Delivered-To: test1@sym.itinet.fr
+Received: by SecureYourMail (Postfix, from userid 999)
+	id 0D42B2E0089; Tue, 15 Nov 2016 13:46:47 +0100 (CET)
+Received: from sym.itinet.fr (unknown [10.8.96.5])
+	by SecureYourMail (Postfix) with ESMTP id CF3772E0082
+	for <test1@sym.itinet.fr>; Tue, 15 Nov 2016 13:46:34 +0100 (CET)
+Message-Id: <20161115124640.CF3772E0082@SecureYourMail>
+Date: Tue, 15 Nov 2016 13:46:34 +0100 (CET)
+From: step@live.fr
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+

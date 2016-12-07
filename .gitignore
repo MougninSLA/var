@@ -1,0 +1,11 @@
+### Fichiers à ignorer ###
+backups
+cache
+lib
+lock
+log
+lost+found
+opt
+run
+tmp
+spool

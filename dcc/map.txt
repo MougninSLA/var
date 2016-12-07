@@ -1,0 +1,51 @@
+# 12/07/16 10:24:37 CET  /var/dcc/map
+# Re-resolve names after 12:23:58  Check RTTs after 10:39:36
+# 1230.19 ms threshold, 1226.42 ms average    12 total, 11 working servers
+IPv6 on   version=3
+
+dcc1.dcc-servers.net,-      RTT+1000 ms  anon
+#  38.124.232.176,-                                                  ID 1102
+#     100% of  1 requests ok  196.22+1000 ms RTT       100 ms queue wait
+#  74.92.232.243,-                                          Etherboy ID 1002
+#     100% of  1 requests ok  199.40+1000 ms RTT       100 ms queue wait
+#  212.223.102.90,-                                                  ID 1480
+#     100% of  1 requests ok  130.19+1000 ms RTT       100 ms queue wait
+
+dcc2.dcc-servers.net,-      RTT+1000 ms  anon
+#  69.12.208.70,-                                          sonic.net ID 1156
+#     100% of  1 requests ok  269.18+1000 ms RTT       100 ms queue wait
+# *195.20.8.232,-                                          EATSERVER ID 1166
+#     100% of  1 requests ok  126.42+1000 ms RTT       100 ms queue wait
+#  208.82.128.50,-                                                   ID 1282
+#     100% of  4 requests ok 4000.00+1000 ms RTT      4000 ms queue wait
+
+dcc3.dcc-servers.net,-      RTT+1000 ms  anon
+#  209.169.14.29,-                                     x.dcc-servers ID 104
+#     100% of  1 requests ok  236.29+1000 ms RTT       100 ms queue wait
+#  209.169.14.30,-                                     x.dcc-servers ID 104
+#     100% of  1 requests ok  232.90+1000 ms RTT       100 ms queue wait
+
+dcc4.dcc-servers.net,-      RTT+1000 ms  anon
+#  209.169.14.27,-                                     x.dcc-servers ID 104
+#     100% of  1 requests ok  236.24+1000 ms RTT       100 ms queue wait
+
+dcc5.dcc-servers.net,-      RTT+1000 ms  anon
+#  67.66.138.141,-                                                   ID 1356
+#     100% of  4 requests ok 4000.00+1000 ms RTT      4000 ms queue wait
+#  212.223.15.198,-                                                  ID 1481
+#     100% of  1 requests ok  136.19+1000 ms RTT       100 ms queue wait
+
+@,-                         RTT-1000 ms  32768 secret1271790341y1030
+#  127.0.0.1,-                                     
+#      not answering
+
+################
+# 12/07/16 10:24:37 CET  greylist /var/dcc/map
+# Re-resolve names after 12:23:58  
+# 1 total, 0 working servers
+# continue not asking greylist server 32 seconds after 1 failures
+
+@,-                         Greylist 32768 secret1271790341y1030
+# *127.0.0.1,6276                                  
+#      not answering
+
