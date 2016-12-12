@@ -23,9 +23,9 @@ print(h)
 print(v)
 
 for g in v:
-	for key in params.keys():
+	for key in h.keys():
 		if g == key:
-			print("Le ",key,", il y a eu ",params[key])
+			print("Le ",key,", il y a eu ",h[key])
 
 lim = []
 for i in li:
