@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-f = open('/var/scripts/test2')
+f = open('/var/www/scripts/test2')
 li = []
 for ln in f:
 	li.append(ln)
