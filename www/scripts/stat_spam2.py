@@ -22,6 +22,11 @@ v = sorted(h)
 print(h)
 print(v)
 
+for g in v:
+	for key in params.keys():
+		if g == key:
+			print("Le ",key,", il y a eu ",params[key])
+
 lim = []
 for i in li:
 	i = i.split()
