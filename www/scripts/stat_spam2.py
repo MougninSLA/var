@@ -20,12 +20,13 @@ while li2:
 	li2 = [y for y in li2 if y != i]
 v = sorted(h)
 print(h)
-print(v)
 
 for g in v:
 	for key in h.keys():
 		if g == key:
 			print("Le ",key,", il y a eu ",h[key])
+
+print("==============================================================\n")
 
 lim = []
 for i in li:
@@ -41,7 +42,14 @@ while lim:
 	s[lim[0]] = a
 	i = lim[0]
 	lim = [y for y in lim if y != i]
-print(s)
+v = sorted(s)
+
+for g in v:
+	for key in s.keys():
+		if g == key:
+			print("Le ",key,", il y a eu ",s[key])
+
+print("==============================================================\n")
 
 lia = []
 for i in li:
@@ -57,4 +65,9 @@ while lia:
         z[lia[0]] = a
         i = lia[0]
         lia = [y for y in lia if y != i]
-print(z)
+v = sorted(z)
+
+for g in v:
+	for key in z.keys():
+		if g == key:
+			print("Le ",key,", il y a eu ",z[key])
