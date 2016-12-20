@@ -30,7 +30,7 @@ def today_mail():
 
 # Fonction qui range et compte les bon mails du jour dans lequel nous sommes dans today_bon_mail
 def today_bon_mail():
-	os.system("grep \"C=\"250 2.0.0 Ok: queued as\" /var/www/scripts/all_mails > /var/www/scripts/good_mail")
+	os.system("grep 'C=\"250 2.0.0 Ok: queued as' /var/www/scripts/all_mails > /var/www/scripts/good_mail")
 	os.system("grep \"$(date --rfc-3339=date)\" /var/www/scripts/good_mail > /var/www/scripts/today_bon_mail")
 	f = open('/var/www/scripts/today_bon_mail')
 	li = []
@@ -83,7 +83,7 @@ def today_spam_mail():
 
 # Fonction qui range et compte les bon mails par jour dans good_mail
 def bon_mail():
-	os.system("grep \"C=\"250 2.0.0 Ok: queued as\" /var/www/scripts/all_mails > /var/www/scripts/good_mail")
+	os.system("grep 'C=\"250 2.0.0 Ok: queued as' /var/www/scripts/all_mails > /var/www/scripts/good_mail")
 	f = open('/var/www/scripts/good_mail')
 	li = []
 	for ln in f:
@@ -101,7 +101,7 @@ def bon_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les mails valident totaux reçus chaque jour")
+	print("Les mails valides totaux reçus chaque jour")
 	for g in v:
 		for key in h.keys():
 			if g == key:
