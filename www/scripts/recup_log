@@ -1,0 +1,404 @@
+2016-12-14 06:25:08 1cH23w-0004Il-1W SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 06:25:08 1cH23w-0004Il-1W SA: Debug: check succeeded, running spamc
+2016-12-14 06:25:08 1cH23w-0004Il-1W SA: Action: scanned but message isn't spam: score=0.0 required=5.0 (scanned in 0/0 secs | Message-Id: E1cH23w-0004Il-1W@SecureYourMail.itinet.fr). From <> (local) for root@sym.itinet.fr
+2016-12-14 06:25:08 1cH23w-0004Il-1W <= <> R=1cH23q-0004H0-NV U=Debian-exim P=local S=3489
+2016-12-14 06:25:08 1cH23q-0004H0-NV Completed
+2016-12-14 06:25:08 1cH23w-0004Il-1W ** root@sym.itinet.fr R=smarthost T=remote_smtp_smarthost X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail": SMTP error from remote mail server after RCPT TO:<root@sym.itinet.fr>: host 10.8.102.195 [10.8.102.195]: 550 5.1.1 <root@sym.itinet.fr>: Recipient address rejected: User unknown in virtual mailbox table
+2016-12-14 06:25:08 1cH23w-0004Il-1W Frozen (delivery error message)
+2016-12-14 06:41:45 Start queue run: pid=16598
+2016-12-14 06:41:45 1cEvhd-0002li-AB Message is frozen
+2016-12-14 06:41:45 1cGQWv-00013q-2R Message is frozen
+2016-12-14 06:41:45 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 06:41:45 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 06:41:45 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 06:41:45 1cH23w-0004Il-1W Message is frozen
+2016-12-14 06:41:45 1cGJ6q-0000ky-09 Unfrozen by errmsg timer
+2016-12-14 06:41:46 1cGJ6q-0000ky-09 ** root@sym.itinet.fr R=smarthost T=remote_smtp_smarthost X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail": SMTP error from remote mail server after RCPT TO:<root@sym.itinet.fr>: host 10.8.102.195 [10.8.102.195]: 550 5.1.1 <root@sym.itinet.fr>: Recipient address rejected: User unknown in virtual mailbox table
+2016-12-14 06:41:46 1cGJ6q-0000ky-09 root@sym.itinet.fr: error ignored
+2016-12-14 06:41:46 1cGJ6q-0000ky-09 Completed
+2016-12-14 06:41:46 End queue run: pid=16598
+2016-12-14 07:11:46 Start queue run: pid=16614
+2016-12-14 07:11:46 1cEvhd-0002li-AB Message is frozen
+2016-12-14 07:11:46 1cH23w-0004Il-1W Message is frozen
+2016-12-14 07:11:46 1cGQWv-00013q-2R Message is frozen
+2016-12-14 07:11:46 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 07:11:46 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 07:11:46 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 07:11:46 End queue run: pid=16614
+2016-12-14 07:41:45 Start queue run: pid=16634
+2016-12-14 07:41:45 1cEvhd-0002li-AB Message is frozen
+2016-12-14 07:41:45 1cGQWv-00013q-2R Message is frozen
+2016-12-14 07:41:45 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 07:41:45 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 07:41:45 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 07:41:45 1cH23w-0004Il-1W Message is frozen
+2016-12-14 07:41:45 End queue run: pid=16634
+2016-12-14 08:11:45 Start queue run: pid=16648
+2016-12-14 08:11:45 1cH23w-0004Il-1W Message is frozen
+2016-12-14 08:11:45 1cGQWv-00013q-2R Message is frozen
+2016-12-14 08:11:45 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 08:11:45 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 08:11:45 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 08:11:45 1cEvhd-0002li-AB Message is frozen
+2016-12-14 08:11:45 End queue run: pid=16648
+2016-12-14 08:41:46 Start queue run: pid=16668
+2016-12-14 08:41:46 1cGQWv-00013q-2R Message is frozen
+2016-12-14 08:41:46 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 08:41:46 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 08:41:46 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 08:41:46 1cH23w-0004Il-1W Message is frozen
+2016-12-14 08:41:46 1cEvhd-0002li-AB Message is frozen
+2016-12-14 08:41:46 End queue run: pid=16668
+2016-12-14 08:57:10 no host name found for IP address 10.8.97.1
+2016-12-14 08:57:10 1cH4R4-0004LV-2c DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 08:57:10 1cH4R4-0004LV-2c SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 08:57:10 1cH4R4-0004LV-2c SA: Debug: check succeeded, running spamc
+2016-12-14 08:57:15 1cH4R4-0004LV-2c SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 5/5 secs | Message-Id: AM5PR0101MB2481AAC03BC285D34E57A0B1BE9A0@AM5PR0101MB2481.eurprd01.prod.exchangelabs.com). From <sangare@intechinfo.fr> (host=NULL [10.8.97.1]) for hassane1@sym.itinet.fr
+2016-12-14 08:57:15 1cH4R4-0004LV-2c <= sangare@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=5713 id=AM5PR0101MB2481AAC03BC285D34E57A0B1BE9A0@AM5PR0101MB2481.eurprd01.prod.exchangelabs.com
+2016-12-14 08:57:16 1cH4R4-0004LV-2c => hassane1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as C1DE924A0D"
+2016-12-14 08:57:16 1cH4R4-0004LV-2c Completed
+2016-12-14 09:11:45 Start queue run: pid=16720
+2016-12-14 09:11:45 1cEvhd-0002li-AB Message is frozen
+2016-12-14 09:11:45 1cH23w-0004Il-1W Message is frozen
+2016-12-14 09:11:45 1cGQWv-00013q-2R Message is frozen
+2016-12-14 09:11:45 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 09:11:45 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 09:11:45 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 09:11:45 End queue run: pid=16720
+2016-12-14 09:36:03 no host name found for IP address 10.8.97.1
+2016-12-14 09:36:03 1cH52h-0004Ml-0h DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 09:36:03 1cH52h-0004Ml-0h SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 09:36:03 1cH52h-0004Ml-0h SA: Debug: check succeeded, running spamc
+2016-12-14 09:36:16 1cH52h-0004Ml-0h SA: Action: scanned but message isn't spam: score=2.2 required=5.0 (scanned in 13/13 secs | Message-Id: AM4PR0101MB20352A89858D90BBF339C883CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 09:36:16 1cH52h-0004Ml-0h <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=7084 id=AM4PR0101MB20352A89858D90BBF339C883CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 09:36:16 1cH52h-0004Ml-0h => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as A89CA24A0D"
+2016-12-14 09:36:16 1cH52h-0004Ml-0h Completed
+2016-12-14 09:36:53 no host name found for IP address 10.8.97.1
+2016-12-14 09:36:54 1cH53V-0004Mu-Iv DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 09:36:54 1cH53V-0004Mu-Iv SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 09:36:54 1cH53V-0004Mu-Iv SA: Debug: check succeeded, running spamc
+2016-12-14 09:36:55 1cH53V-0004Mu-Iv SA: Debug: Writing message to /var/spool/sa-exim/SAteergrube/new/AM4PR0101MB2035167E1D5E27857AFAB203CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 09:41:46 Start queue run: pid=16800
+2016-12-14 09:41:46 1cEvhd-0002li-AB Message is frozen
+2016-12-14 09:41:46 1cGQWv-00013q-2R Message is frozen
+2016-12-14 09:41:46 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 09:41:46 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 09:41:46 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 09:41:46 1cH23w-0004Il-1W Message is frozen
+2016-12-14 09:41:46 End queue run: pid=16800
+2016-12-14 09:45:09 exim 4.84_2 daemon started: pid=17335, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 09:45:09 Start queue run: pid=17336
+2016-12-14 09:45:09 1cH23w-0004Il-1W Message is frozen
+2016-12-14 09:45:09 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 09:45:09 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 09:45:09 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 09:45:09 1cGQWv-00013q-2R Message is frozen
+2016-12-14 09:45:09 1cEvhd-0002li-AB Message is frozen
+2016-12-14 09:45:09 End queue run: pid=17336
+2016-12-14 09:46:35 no host name found for IP address 10.8.97.1
+2016-12-14 09:46:35 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 09:46:43 no host name found for IP address 10.8.97.1
+2016-12-14 09:46:43 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 09:46:55 1cH53V-0004Mu-Iv SA: Action: teergrubed sender until full configured duration of 600 secs: score=1005.3 required=5.0 trigger=5.0 (scanned in 1/1 secs | Message-Id: AM4PR0101MB2035167E1D5E27857AFAB203CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 09:46:55 1cH53V-0004Mu-Iv F=ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp temporarily rejected by local_scan(): Please try again later
+2016-12-14 09:49:06 no host name found for IP address 10.8.97.1
+2016-12-14 09:49:06 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 09:54:01 exim 4.84_2 daemon started: pid=18182, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 09:54:02 Start queue run: pid=18183
+2016-12-14 09:54:02 1cEvhd-0002li-AB Message is frozen
+2016-12-14 09:54:02 1cGQWv-00013q-2R Message is frozen
+2016-12-14 09:54:02 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 09:54:02 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 09:54:02 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 09:54:02 1cH23w-0004Il-1W Message is frozen
+2016-12-14 09:54:02 End queue run: pid=18183
+2016-12-14 09:54:16 no host name found for IP address 10.8.97.1
+2016-12-14 09:54:16 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "sym.itinet.fr" for require_files not found
+2016-12-14 09:55:56 exim 4.84_2 daemon started: pid=18584, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 09:55:57 Start queue run: pid=18585
+2016-12-14 09:55:57 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 09:55:57 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 09:55:57 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 09:55:57 1cGQWv-00013q-2R Message is frozen
+2016-12-14 09:55:57 1cH23w-0004Il-1W Message is frozen
+2016-12-14 09:55:57 1cEvhd-0002li-AB Message is frozen
+2016-12-14 09:55:57 End queue run: pid=18585
+2016-12-14 09:56:06 no host name found for IP address 10.8.97.1
+2016-12-14 09:56:06 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "sym.itinet.fr" for require_files not found
+2016-12-14 09:56:48 no host name found for IP address 10.8.97.1
+2016-12-14 09:56:48 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen@sym.itinet.fr>: user "sym.itinet.fr" for require_files not found
+2016-12-14 09:57:24 exim 4.84_2 daemon started: pid=19028, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 09:57:25 Start queue run: pid=19029
+2016-12-14 09:57:25 1cH23w-0004Il-1W Message is frozen
+2016-12-14 09:57:25 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 09:57:25 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 09:57:25 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 09:57:25 1cGQWv-00013q-2R Message is frozen
+2016-12-14 09:57:25 1cEvhd-0002li-AB Message is frozen
+2016-12-14 09:57:25 End queue run: pid=19029
+2016-12-14 09:57:38 no host name found for IP address 10.8.97.1
+2016-12-14 09:57:38 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen@sym.itinet.fr>: user "steephen" for require_files not found
+2016-12-14 09:58:01 no host name found for IP address 10.8.97.1
+2016-12-14 09:58:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 09:58:01 no host name found for IP address 10.8.97.1
+2016-12-14 09:58:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 10:00:46 exim 4.84_2 daemon started: pid=20234, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 10:00:46 Start queue run: pid=20235
+2016-12-14 10:00:46 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 10:00:46 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 10:00:46 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 10:00:46 1cGQWv-00013q-2R Message is frozen
+2016-12-14 10:00:46 1cH23w-0004Il-1W Message is frozen
+2016-12-14 10:00:46 1cEvhd-0002li-AB Message is frozen
+2016-12-14 10:00:46 End queue run: pid=20235
+2016-12-14 10:01:22 exim 4.84_2 daemon started: pid=21012, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 10:01:22 Start queue run: pid=21013
+2016-12-14 10:01:22 1cEvhd-0002li-AB Message is frozen
+2016-12-14 10:01:22 1cH23w-0004Il-1W Message is frozen
+2016-12-14 10:01:22 1cGQWv-00013q-2R Message is frozen
+2016-12-14 10:01:22 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 10:01:22 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 10:01:22 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 10:01:22 End queue run: pid=21013
+2016-12-14 10:03:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:03:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 10:03:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:03:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen@sym.itinet.fr>: user "steephen" for require_files not found
+2016-12-14 10:03:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:03:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 10:03:02 no host name found for IP address 10.8.97.1
+2016-12-14 10:03:02 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen@sym.itinet.fr>: user "steephen" for require_files not found
+2016-12-14 10:03:02 no host name found for IP address 10.8.97.1
+2016-12-14 10:03:02 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 10:08:18 exim 4.84_2 daemon started: pid=21959, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 10:08:18 Start queue run: pid=21960
+2016-12-14 10:08:18 1cEvhd-0002li-AB Message is frozen
+2016-12-14 10:08:18 1cH23w-0004Il-1W Message is frozen
+2016-12-14 10:08:18 1cGQWv-00013q-2R Message is frozen
+2016-12-14 10:08:18 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 10:08:18 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 10:08:18 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 10:08:18 End queue run: pid=21960
+2016-12-14 10:08:25 exim 4.84_2 daemon started: pid=22357, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 10:08:25 Start queue run: pid=22358
+2016-12-14 10:08:25 1cEvhd-0002li-AB Message is frozen
+2016-12-14 10:08:25 1cGQWv-00013q-2R Message is frozen
+2016-12-14 10:08:25 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 10:08:25 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 10:08:25 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 10:08:25 1cH23w-0004Il-1W Message is frozen
+2016-12-14 10:08:25 End queue run: pid=22358
+2016-12-14 10:08:54 no host name found for IP address 10.8.97.1
+2016-12-14 10:08:54 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 10:13:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:13:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:13:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:13:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen@sym.itinet.fr>: user "steephen" for require_files not found
+2016-12-14 10:13:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen@sym.itinet.fr>: user "steephen" for require_files not found
+2016-12-14 10:13:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 10:13:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:13:01 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> temporarily rejected RCPT <steephen1@sym.itinet.fr>: user "steephen1" for require_files not found
+2016-12-14 10:13:17 exim 4.84_2 daemon started: pid=22766, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 10:13:17 Start queue run: pid=22767
+2016-12-14 10:13:17 1cEvhd-0002li-AB Message is frozen
+2016-12-14 10:13:17 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 10:13:17 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 10:13:17 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 10:13:17 1cGQWv-00013q-2R Message is frozen
+2016-12-14 10:13:17 1cH23w-0004Il-1W Message is frozen
+2016-12-14 10:13:17 End queue run: pid=22767
+2016-12-14 10:13:28 no host name found for IP address 10.8.97.1
+2016-12-14 10:13:29 1cH5cu-0005vd-M4 DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:13:29 1cH5cu-0005vd-M4 H=(sentry.itinet.fr) [10.8.97.1] F=<ilangovane@intechinfo.fr> rejected after DATA: 10.8.97.1 tried sending Eicar-Test-Signature
+2016-12-14 10:14:14 exim 4.84_2 daemon started: pid=23169, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 10:14:14 Start queue run: pid=23170
+2016-12-14 10:14:14 1cEvhd-0002li-AB Message is frozen
+2016-12-14 10:14:14 1cH23w-0004Il-1W Message is frozen
+2016-12-14 10:14:14 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 10:14:14 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 10:14:14 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 10:14:14 1cGQWv-00013q-2R Message is frozen
+2016-12-14 10:14:14 End queue run: pid=23170
+2016-12-14 10:14:23 no host name found for IP address 10.8.97.1
+2016-12-14 10:14:23 1cH5dn-000628-5n DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:14:23 1cH5dn-000628-5n SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:14:23 1cH5dn-000628-5n SA: Debug: check succeeded, running spamc
+2016-12-14 10:14:27 1cH5dn-000628-5n SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 4/4 secs | Message-Id: AM4PR0101MB2035E9151DFE5607E48FC06CCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:14:27 1cH5dn-000628-5n <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=13836 id=AM4PR0101MB2035E9151DFE5607E48FC06CCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:14:42 1cH5dn-000628-5n => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as CABA524A0D"
+2016-12-14 10:14:42 1cH5dn-000628-5n Completed
+2016-12-14 10:16:42 no host name found for IP address 10.8.97.1
+2016-12-14 10:16:42 1cH5g2-00062n-HU DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:16:42 1cH5g2-00062n-HU SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:16:42 1cH5g2-00062n-HU SA: Debug: check succeeded, running spamc
+2016-12-14 10:16:43 1cH5g2-00062n-HU SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 1/1 secs | Message-Id: AM4PR0101MB2035D6D42207D1260FF39D2DCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:16:43 1cH5g2-00062n-HU <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=7055 id=AM4PR0101MB2035D6D42207D1260FF39D2DCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:16:58 1cH5g2-00062n-HU => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as E6A6A24A0D"
+2016-12-14 10:16:58 1cH5g2-00062n-HU Completed
+2016-12-14 10:18:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:18:01 1cH5hJ-00063F-RI DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:18:01 1cH5hJ-00063F-RI SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:18:01 1cH5hJ-00063F-RI SA: Debug: check succeeded, running spamc
+2016-12-14 10:18:02 1cH5hJ-00063F-RI SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 1/1 secs | Message-Id: AM4PR0101MB2035C299CF868087ED37E357CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:18:02 1cH5hJ-00063F-RI <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=13835 id=AM4PR0101MB2035C299CF868087ED37E357CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:18:17 1cH5hJ-00063F-RI => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as A79DF24A0D"
+2016-12-14 10:18:17 1cH5hJ-00063F-RI Completed
+2016-12-14 10:20:05 no host name found for IP address 10.8.97.1
+2016-12-14 10:20:05 1cH5jJ-00063h-KD DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:20:05 1cH5jJ-00063h-KD SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:20:05 1cH5jJ-00063h-KD SA: Debug: check succeeded, running spamc
+2016-12-14 10:20:18 1cH5jJ-00063h-KD SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 13/13 secs | Message-Id: AM4PR0101MB2035E5C92A74CF3C8A6C7B7CCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:20:18 1cH5jJ-00063h-KD <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=7089 id=AM4PR0101MB2035E5C92A74CF3C8A6C7B7CCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:20:32 1cH5jJ-00063h-KD => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 7FD0B24A0D"
+2016-12-14 10:20:32 1cH5jJ-00063h-KD Completed
+2016-12-14 10:23:02 no host name found for IP address 10.8.97.1
+2016-12-14 10:23:02 no host name found for IP address 10.8.97.1
+2016-12-14 10:23:02 1cH5mA-000643-Bv DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:23:02 1cH5mA-000643-Bv SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:23:02 1cH5mA-000643-Bv SA: Debug: check succeeded, running spamc
+2016-12-14 10:23:02 1cH5mA-000644-C5 DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:23:02 1cH5mA-000644-C5 SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:23:02 1cH5mA-000644-C5 SA: Debug: check succeeded, running spamc
+2016-12-14 10:23:02 1cH5mA-000644-C5 SA: Debug: Writing message to /var/spool/sa-exim/SAteergrube/new/AM4PR0101MB2035167E1D5E27857AFAB203CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:23:03 1cH5mA-000643-Bv SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 1/1 secs | Message-Id: AM4PR0101MB203525486E7E12A06022B1C9CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:23:03 1cH5mA-000643-Bv <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=7280 id=AM4PR0101MB203525486E7E12A06022B1C9CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:23:17 1cH5mA-000643-Bv => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 61C8824A0D"
+2016-12-14 10:23:17 1cH5mA-000643-Bv Completed
+2016-12-14 10:28:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:28:02 1cH5qz-00064Y-UF DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:28:02 1cH5qz-00064Y-UF SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:28:02 1cH5qz-00064Y-UF SA: Debug: check succeeded, running spamc
+2016-12-14 10:28:06 1cH5qz-00064Y-UF SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 4/4 secs | Message-Id: AM4PR0101MB20351B152F30FDD4C08E6BBCCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:28:06 1cH5qz-00064Y-UF <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=12914 id=AM4PR0101MB20351B152F30FDD4C08E6BBCCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:28:21 1cH5qz-00064Y-UF => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as B25F024A0D"
+2016-12-14 10:28:21 1cH5qz-00064Y-UF Completed
+2016-12-14 10:33:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:33:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:33:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:33:01 no host name found for IP address 10.8.97.1
+2016-12-14 10:33:01 1cH5vp-000650-B6 DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:33:01 1cH5vp-000650-B6 SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:33:01 1cH5vp-000650-B6 SA: Debug: check succeeded, running spamc
+2016-12-14 10:33:01 1cH5vp-000651-BK DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:33:01 1cH5vp-000651-BK SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:33:01 1cH5vp-000651-BK SA: Debug: check succeeded, running spamc
+2016-12-14 10:33:01 1cH5vp-000653-BL DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:33:01 1cH5vp-000653-BL SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:33:01 1cH5vp-000653-BL SA: Debug: check succeeded, running spamc
+2016-12-14 10:33:01 1cH5vp-000652-BL DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:33:01 1cH5vp-000652-BL SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:33:01 1cH5vp-000652-BL SA: Debug: check succeeded, running spamc
+2016-12-14 10:33:02 1cH5vp-000651-BK SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 1/1 secs | Message-Id: AM4PR0101MB203586CDBCC21A5AB263DF15CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:33:02 1cH5vp-000651-BK <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=12914 id=AM4PR0101MB203586CDBCC21A5AB263DF15CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:33:02 1cH5mA-000644-C5 SA: Action: teergrubed sender until full configured duration of 600 secs: score=1005.3 required=5.0 trigger=5.0 (scanned in 0/0 secs | Message-Id: AM4PR0101MB2035167E1D5E27857AFAB203CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:33:02 1cH5mA-000644-C5 F=ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp temporarily rejected by local_scan(): Please try again later
+2016-12-14 10:33:02 1cH5vp-000652-BL SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 1/1 secs | Message-Id: AM4PR0101MB20355B44BFC5C9F7CBD845F9CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen@sym.itinet.fr
+2016-12-14 10:33:02 1cH5vp-000652-BL <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=7269 id=AM4PR0101MB20355B44BFC5C9F7CBD845F9CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:33:03 1cH5vp-000652-BL ** steephen@sym.itinet.fr R=smarthost T=remote_smtp_smarthost X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail": SMTP error from remote mail server after RCPT TO:<steephen@sym.itinet.fr>: host 10.8.102.195 [10.8.102.195]: 550 5.1.1 <steephen@sym.itinet.fr>: Recipient address rejected: User unknown in virtual mailbox table
+2016-12-14 10:33:03 1cH5vr-00065Z-Bh SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:33:03 1cH5vr-00065Z-Bh SA: Debug: check succeeded, running spamc
+2016-12-14 10:33:05 1cH5vp-000650-B6 SA: Action: scanned but message isn't spam: score=0.5 required=5.0 (scanned in 4/4 secs | Message-Id: AM4PR0101MB20354F373A5CBFEC44F2293ECD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen@sym.itinet.fr
+2016-12-14 10:33:05 1cH5vp-000650-B6 <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=8564 id=AM4PR0101MB20354F373A5CBFEC44F2293ECD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:33:06 1cH5vp-000650-B6 ** steephen@sym.itinet.fr R=smarthost T=remote_smtp_smarthost X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail": SMTP error from remote mail server after RCPT TO:<steephen@sym.itinet.fr>: host 10.8.102.195 [10.8.102.195]: 550 5.1.1 <steephen@sym.itinet.fr>: Recipient address rejected: User unknown in virtual mailbox table
+2016-12-14 10:33:06 1cH5vu-00065g-1p SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:33:06 1cH5vu-00065g-1p SA: Debug: check succeeded, running spamc
+2016-12-14 10:33:06 1cH5vp-000653-BL SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 5/5 secs | Message-Id: AM4PR0101MB2035BA77DBCB2547AECA9E7FCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:33:06 1cH5vp-000653-BL <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=12897 id=AM4PR0101MB2035BA77DBCB2547AECA9E7FCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:33:07 1cH5vr-00065Z-Bh SA: Action: scanned but message isn't spam: score=0.0 required=5.0 (scanned in 4/4 secs | Message-Id: E1cH5vr-00065Z-Bh@SecureYourMail.itinet.fr). From <> (local) for ilangovane@intechinfo.fr
+2016-12-14 10:33:07 1cH5vr-00065Z-Bh <= <> R=1cH5vp-000652-BL U=Debian-exim P=local S=8785
+2016-12-14 10:33:07 1cH5vp-000652-BL Completed
+2016-12-14 10:33:07 1cH5vr-00065Z-Bh ** ilangovane@intechinfo.fr: Unrouteable address
+2016-12-14 10:33:07 1cH5vr-00065Z-Bh Frozen (delivery error message)
+2016-12-14 10:33:10 1cH5vu-00065g-1p SA: Action: scanned but message isn't spam: score=0.0 required=5.0 (scanned in 4/4 secs | Message-Id: E1cH5vu-00065g-1p@SecureYourMail.itinet.fr). From <> (local) for ilangovane@intechinfo.fr
+2016-12-14 10:33:10 1cH5vu-00065g-1p <= <> R=1cH5vp-000650-B6 U=Debian-exim P=local S=10080
+2016-12-14 10:33:10 1cH5vp-000650-B6 Completed
+2016-12-14 10:33:10 1cH5vu-00065g-1p ** ilangovane@intechinfo.fr: Unrouteable address
+2016-12-14 10:33:10 1cH5vu-00065g-1p Frozen (delivery error message)
+2016-12-14 10:33:17 1cH5vp-000651-BK => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as B43DE24A0D"
+2016-12-14 10:33:17 1cH5vp-000651-BK Completed
+2016-12-14 10:33:21 1cH5vp-000653-BL => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 4982124A25"
+2016-12-14 10:33:21 1cH5vp-000653-BL Completed
+2016-12-14 10:44:14 Start queue run: pid=23459
+2016-12-14 10:44:14 1cGQWv-00013q-2R Message is frozen
+2016-12-14 10:44:14 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 10:44:14 1cH5vr-00065Z-Bh Message is frozen
+2016-12-14 10:44:14 1cH5vu-00065g-1p Message is frozen
+2016-12-14 10:44:14 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 10:44:14 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 10:44:14 1cH23w-0004Il-1W Message is frozen
+2016-12-14 10:44:14 1cEvhd-0002li-AB Message is frozen
+2016-12-14 10:44:14 End queue run: pid=23459
+2016-12-14 10:58:47 no host name found for IP address 10.8.97.1
+2016-12-14 10:58:47 1cH6Kl-00066g-GO DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 10:58:47 1cH6Kl-00066g-GO SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 10:58:47 1cH6Kl-00066g-GO SA: Debug: check succeeded, running spamc
+2016-12-14 10:58:52 1cH6Kl-00066g-GO SA: Action: scanned but message isn't spam: score=0.5 required=5.0 (scanned in 5/5 secs | Message-Id: AM4PR0101MB20352E21D29DA12912A5BC6FCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 10:58:52 1cH6Kl-00066g-GO <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=7092 id=AM4PR0101MB20352E21D29DA12912A5BC6FCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 10:59:06 1cH6Kl-00066g-GO => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 393AE24A0D"
+2016-12-14 10:59:06 1cH6Kl-00066g-GO Completed
+2016-12-14 11:04:04 no host name found for IP address 10.8.97.1
+2016-12-14 11:04:04 1cH6Ps-000678-7q DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 11:04:04 1cH6Ps-000678-7q SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 11:04:04 1cH6Ps-000678-7q SA: Debug: check succeeded, running spamc
+2016-12-14 11:04:09 1cH6Ps-000678-7q SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 5/5 secs | Message-Id: AM4PR0101MB2035DA07BC874CEC581C9B9BCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 11:04:09 1cH6Ps-000678-7q <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=13835 id=AM4PR0101MB2035DA07BC874CEC581C9B9BCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 11:04:24 1cH6Ps-000678-7q => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 659AE24A0D"
+2016-12-14 11:04:24 1cH6Ps-000678-7q Completed
+2016-12-14 11:04:27 no host name found for IP address 10.8.97.1
+2016-12-14 11:04:27 1cH6QF-00067b-2w DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 11:04:27 1cH6QF-00067b-2w SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 11:04:27 1cH6QF-00067b-2w SA: Debug: check succeeded, running spamc
+2016-12-14 11:04:28 1cH6QF-00067b-2w SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 1/1 secs | Message-Id: AM4PR0101MB20353F1961E973BC6D8239FFCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 11:04:28 1cH6QF-00067b-2w <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=13835 id=AM4PR0101MB20353F1961E973BC6D8239FFCD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 11:04:43 1cH6QF-00067b-2w => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 87F7724A0D"
+2016-12-14 11:04:43 1cH6QF-00067b-2w Completed
+2016-12-14 11:04:51 no host name found for IP address 10.8.97.1
+2016-12-14 11:04:52 1cH6Qd-000683-LJ DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 11:04:52 1cH6Qd-000683-LJ SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 11:04:52 1cH6Qd-000683-LJ SA: Debug: check succeeded, running spamc
+2016-12-14 11:04:52 1cH6Qd-000683-LJ SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 0/0 secs | Message-Id: AM4PR0101MB2035944733EC0F4768E43F28CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 11:04:52 1cH6Qd-000683-LJ <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=7058 id=AM4PR0101MB2035944733EC0F4768E43F28CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 11:05:06 1cH6Qd-000683-LJ => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 82A6C24A0D"
+2016-12-14 11:05:06 1cH6Qd-000683-LJ Completed
+2016-12-14 11:08:28 no host name found for IP address 10.8.97.1
+2016-12-14 11:08:28 1cH6U8-00068S-JC DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 11:08:28 1cH6U8-00068S-JC SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 11:08:28 1cH6U8-00068S-JC SA: Debug: check succeeded, running spamc
+2016-12-14 11:08:30 1cH6U8-00068S-JC SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 2/2 secs | Message-Id: AM4PR0101MB203559D32E5D79FACEA73405CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com). From <ilangovane@intechinfo.fr> (host=NULL [10.8.97.1]) for steephen1@sym.itinet.fr
+2016-12-14 11:08:30 1cH6U8-00068S-JC <= ilangovane@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=8295 id=AM4PR0101MB203559D32E5D79FACEA73405CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 11:08:44 1cH6U8-00068S-JC => steephen1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 929CC24A0D"
+2016-12-14 11:08:44 1cH6U8-00068S-JC Completed
+2016-12-14 11:09:34 no host name found for IP address 10.8.97.1
+2016-12-14 11:09:34 1cH6VC-00068o-5r DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 11:09:34 1cH6VC-00068o-5r SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 11:09:34 1cH6VC-00068o-5r SA: Debug: check succeeded, running spamc
+2016-12-14 11:09:35 1cH6VC-00068o-5r SA: Action: scanned but message isn't spam: score=1.5 required=5.0 (scanned in 1/1 secs | Message-Id: AM5PR0101MB2481F246AFC4711CD425D53CBE9A0@AM5PR0101MB2481.eurprd01.prod.exchangelabs.com). From <sangare@intechinfo.fr> (host=NULL [10.8.97.1]) for hassane1@sym.itinet.fr
+2016-12-14 11:09:35 1cH6VC-00068o-5r <= sangare@intechinfo.fr H=(sentry.itinet.fr) [10.8.97.1] P=esmtp S=5697 id=AM5PR0101MB2481F246AFC4711CD425D53CBE9A0@AM5PR0101MB2481.eurprd01.prod.exchangelabs.com
+2016-12-14 11:09:51 1cH6VC-00068o-5r => hassane1@sym.itinet.fr R=smarthost T=remote_smtp_smarthost H=10.8.102.195 [10.8.102.195] X=TLS1.2:ECDHE_RSA_AES_128_GCM_SHA256:128 DN="CN=symmail" C="250 2.0.0 Ok: queued as 1FD0B24A0D"
+2016-12-14 11:09:51 1cH6VC-00068o-5r Completed
+2016-12-14 11:14:14 Start queue run: pid=23641
+2016-12-14 11:14:14 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 11:14:14 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 11:14:14 1cH5vr-00065Z-Bh Message is frozen
+2016-12-14 11:14:14 1cH5vu-00065g-1p Message is frozen
+2016-12-14 11:14:14 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 11:14:14 1cGQWv-00013q-2R Message is frozen
+2016-12-14 11:14:14 1cH23w-0004Il-1W Message is frozen
+2016-12-14 11:14:14 1cEvhd-0002li-AB Message is frozen
+2016-12-14 11:14:14 End queue run: pid=23641
+2016-12-14 11:14:54 no host name found for IP address 10.8.97.1
+2016-12-14 11:14:55 1cH6aM-0006An-OV DKIM: d=intechinfofr.onmicrosoft.com s=selector1-intechinfo-fr c=relaxed/relaxed a=rsa-sha256 [verification succeeded]
+2016-12-14 11:14:55 1cH6aM-0006An-OV SA: Debug: SAEximRunCond expand returned: '1'
+2016-12-14 11:14:55 1cH6aM-0006An-OV SA: Debug: check succeeded, running spamc
+2016-12-14 11:15:03 1cH6aM-0006An-OV SA: Debug: Writing message to /var/spool/sa-exim/SAteergrube/new/AM4PR0101MB20358800BED929631DA67125CD9A0@AM4PR0101MB2035.eurprd01.prod.exchangelabs.com
+2016-12-14 11:17:46 exim 4.84_2 daemon started: pid=24571, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25 [10.8.96.5]:25
+2016-12-14 11:17:46 Start queue run: pid=24572
+2016-12-14 11:17:46 1cH23w-0004Il-1W Message is frozen
+2016-12-14 11:17:46 1cGQWv-00013q-2R Message is frozen
+2016-12-14 11:17:46 1cGBHy-0000dB-Fs Message is frozen
+2016-12-14 11:17:46 1cGfaN-0003RI-AR Message is frozen
+2016-12-14 11:17:46 1cH5vr-00065Z-Bh Message is frozen
+2016-12-14 11:17:46 1cH5vu-00065g-1p Message is frozen
+2016-12-14 11:17:46 1cG1yZ-00057d-HT Message is frozen
+2016-12-14 11:17:46 1cEvhd-0002li-AB Message is frozen
+2016-12-14 11:17:46 End queue run: pid=24572
