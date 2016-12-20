@@ -7,7 +7,7 @@ def del_lines():
 
 	with open("/var/www/scripts/all_spams", "w") as all_spams:
         # On écrit la modification
-        all_spams.write(test3_str)
+		all_spams.write(test3_str)
 
 def del_lignes_vides():
 	chaine = r"\n" #Texte à rechercher
@@ -20,5 +20,5 @@ def del_lignes_vides():
 	all_mails_str = ''.join(contenu)	
 	
 	with open("/var/www/scripts/all_mails", "w") as all_mails:
-                # On écrit la modification
-                all_mails.write(all_mails_str)	
+		# On écrit la modification
+		all_mails.write(all_mails_str)	
