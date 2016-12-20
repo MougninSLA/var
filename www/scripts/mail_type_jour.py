@@ -21,7 +21,6 @@ def today_mail():
 		i = li2[0]
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
-	print(h)
 
 	for g in v:
 		for key in h.keys():
@@ -48,7 +47,6 @@ def today_bon_mail():
 		i = li2[0]
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
-	print(h)
 
 	for g in v:
 		for key in h.keys():
@@ -74,7 +72,6 @@ def today_spam_mail():
 		i = li2[0]
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
-	print(h)
 
 	for g in v:
 		for key in h.keys():
@@ -100,7 +97,6 @@ def bon_mail():
 		i = li2[0]
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
-	print(h)
 
 	for g in v:
 		for key in h.keys():
@@ -126,7 +122,6 @@ def spam_mail():
 		i = li2[0]
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
-	print(h)
 
 	for g in v:
 		for key in h.keys():

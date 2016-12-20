@@ -19,4 +19,3 @@ while li2:
 	i = li2[0]
 	li2 = [y for y in li2 if y != i]
 v = sorted(h)
-print(h)
