@@ -20,6 +20,7 @@ def daily_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
+	print("Les mails totaux reçus chaque jour")
 	for g in v:
 		for key in h.keys():
 			if g == key:
@@ -44,6 +45,7 @@ def monthly_mail():
 		lim = [y for y in lim if y != i]
 	v = sorted(s)
 
+	print("Les mails totaux reçus chaque chaque")
 	for g in v:
 		for key in s.keys():
 			if g == key:
@@ -69,6 +71,7 @@ def year_mail():
 	        lia = [y for y in lia if y != i]
 	v = sorted(z)
 
+	print("Les mails totaux reçus chaque année")
 	for g in v:
 		for key in z.keys():
 			if g == key:

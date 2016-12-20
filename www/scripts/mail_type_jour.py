@@ -22,6 +22,7 @@ def today_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
+	print("Les mails totaux reçus aujourd'hui")
 	for g in v:
 		for key in h.keys():
 			if g == key:
@@ -48,6 +49,7 @@ def today_bon_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
+	print("Les mails valides totaux reçus chaque aujourd'hui")
 	for g in v:
 		for key in h.keys():
 			if g == key:
@@ -73,6 +75,7 @@ def today_spam_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
+	print("Les spams totaux reçus aujourd'hui")
 	for g in v:
 		for key in h.keys():
 			if g == key:
@@ -98,6 +101,7 @@ def bon_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
+	print("Les mails valident totaux reçus chaque jour")
 	for g in v:
 		for key in h.keys():
 			if g == key:
@@ -123,6 +127,7 @@ def spam_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
+	print("Les spams totaux reçus chaque jour")
 	for g in v:
 		for key in h.keys():
 			if g == key:

@@ -26,6 +26,7 @@ def bon_mail():
                 lia = [y for y in lia if y != i]
         v = sorted(z)
 
+        print("Les mails valides totaux reçus chaque année")
         for g in v:
                 for key in z.keys():
                         if g == key:
@@ -55,6 +56,7 @@ def spam_mail():
                 lia = [y for y in lia if y != i]
         v = sorted(z)
 
+        print("Les spams totaux reçus chaque année")
         for g in v:
                 for key in z.keys():
                         if g == key:
