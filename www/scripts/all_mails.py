@@ -26,7 +26,7 @@ del_lignes_vides()
 #============================================================================
 
 # On compte tous les mails par jour
-daily_mail()
+"""daily_mail()
 print("\n")
 # On compte tous les mails du mois
 monthly_mail()
@@ -47,4 +47,4 @@ print("\n")
 bon_mail()
 print("\n")
 # On compte les spams de chaque jour
-spam_mail()
+spam_mail()"""
