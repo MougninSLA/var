@@ -49,7 +49,7 @@ def today_bon_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les mails valides totaux reçus chaque aujourd'hui")
+	print("Les mails valides totaux reçus aujourd'hui")
 	for g in v:
 		for key in h.keys():
 			if g == key:

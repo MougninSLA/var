@@ -45,7 +45,7 @@ def monthly_mail():
 		lim = [y for y in lim if y != i]
 	v = sorted(s)
 
-	print("Les mails totaux reçus chaque chaque")
+	print("Les mails totaux reçus chaque mois")
 	for g in v:
 		for key in s.keys():
 			if g == key:
