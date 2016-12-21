@@ -3,7 +3,7 @@
 import os
 
 # Fonction qui range et compte les bon mails par jour dans good_mail
-def bon_mail():
+def bon_mail_mois():
 	os.system("grep \"C=\"250 2.0.0 Ok: queued as\" /var/www/scripts/all_mails > /var/www/scripts/good_mail")
 	f = open('/var/www/scripts/good_mail')
         li = []
@@ -34,7 +34,7 @@ def bon_mail():
 
 # Fonction compte les spams par jour dans all_spams
 
-def spam_mail():
+def spam_mail_mois():
 	f = open('/var/www/scripts/all_spams')
         li = []
         for ln in f:
