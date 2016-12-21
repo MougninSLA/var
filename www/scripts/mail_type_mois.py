@@ -32,15 +32,15 @@ def bon_mail_mois():
                         if g == key:
                                 print("Le mois du ",key,", il y a eu ",s[key]," bon mail(s)")
 
-# Fonction compte les spams par jour dans all_spams
+# Fonction compte les spams par mois dans all_spams
 
 def spam_mail_mois():
-	f = open('/var/www/scripts/all_spams')
+        f = open('/var/www/scripts/all_spams')
         li = []
         for ln in f:
                 li.append(ln)
         f.close()
-	lim = []
+        lim = []
         for i in li:
                 i = i.split()
                 y = i[0].split("-")
@@ -60,4 +60,4 @@ def spam_mail_mois():
         for g in v:
                 for key in s.keys():
                         if g == key:
-                                print("Le mois du ",key,", il y a eu ",s[key]," spam(s)")	
+                                print("Le mois du ",key,", il y a eu ",s[key]," spam(s)")
