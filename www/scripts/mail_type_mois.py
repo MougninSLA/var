@@ -2,15 +2,15 @@
 
 import os
 
-# Fonction qui range et compte les bon mails par jour dans good_mail
+# Fonction qui range et compte les bon mails par mois dans good_mail
 def bon_mail_mois():
-	os.system("grep \"C=\"250 2.0.0 Ok: queued as\" /var/www/scripts/all_mails > /var/www/scripts/good_mail")
-	f = open('/var/www/scripts/good_mail')
+        os.system("grep \"C=\"250 2.0.0 Ok: queued as\" /var/www/scripts/all_mails > /var/www/scripts/good_mail")
+        f = open('/var/www/scripts/good_mail')
         li = []
         for ln in f:
                 li.append(ln)
         f.close()
-	lim = []
+        lim = []
         for i in li:
                 i = i.split()
                 y = i[0].split("-")
