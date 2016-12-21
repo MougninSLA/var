@@ -3,10 +3,6 @@
 import os
 from del_lignes import del_lines, del_lignes_vides
 from retirer_doublon import del_doublon
-from stat_spam2 import daily_mail, monthly_mail, year_mail
-from mail_type_jour import *
-from mail_type_mois import *
-from mail_type_annee import *
 
 #backup pour les tests
 os.system("""cp /var/www/scripts/all_mails /var/www/scripts/all_mails.old
