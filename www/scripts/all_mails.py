@@ -11,7 +11,7 @@ cp /var/www/scripts/all_spams all_spams.old""")
 # On récupère les bon mails envoyé ans all_mails
 os.system("grep 'C=\"250 2.0.0 Ok: queued as' /var/log/exim4/mainlog >> /var/www/scripts/all_mails")
 # On récupère les spams reçu dans all_spams
-os.system("ls -la --full-time /var/spool/sa-exim/SAteergrube/new > /var/www/scripts/all_spams")
+os.system("ls -la --full-time /var/spool/sa-exim/SAteergrube/new >> /var/www/scripts/all_spams")
 # On supprime les trois premières lignes du fichiers car elles ne sont pas utiles
 del_lines()
 # On ajoute la liste des spams reçu à celle des bon mails dans all_mails

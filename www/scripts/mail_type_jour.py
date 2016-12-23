@@ -23,10 +23,12 @@ def today_mail():
 	v = sorted(h)
 
 	print("Les mails totaux reçus aujourd'hui")
+	
 	for g in v:
 		for key in h.keys():
 			if g == key:
 				print("Le ",key,", il y a eu ",h[key]," mail(s)")
+
 
 # Fonction qui range et compte les bon mails du jour dans lequel nous sommes dans today_bon_mail
 def today_bon_mail():
