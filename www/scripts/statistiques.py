@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-from stat_spam2 import *
 from mail_type_jour import * 
 from mail_type_mois import *
 from mail_type_annee import *
