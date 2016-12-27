@@ -34,7 +34,7 @@ def year_mail():
 
 # Fonction qui range et compte les bon mails par année dans good_mail
 def bon_mail_annee():
-        os.system("grep \"C=\"250 2.0.0 Ok: queued as\" /var/www/scripts/all_mails > /var/www/scripts/good_mail")
+        os.system("grep 'C=\"250 2.0.0 Ok: queued as' /var/www/scripts/all_mails > /var/www/scripts/good_mail")
         f = open('/var/www/scripts/good_mail')
         li = []
         for ln in f:
