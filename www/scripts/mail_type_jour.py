@@ -59,7 +59,8 @@ def today_bon_mail():
 
 # Fonction qui range et compte les spams du jour dans lequel nous sommes dans today_spam_mail
 def today_spam_mail():
-	os.system("grep \"$(date --rfc-3339=date)\" /var/www/scripts/all_spams | cut -d\" \" -f7,10 > /var/www/scripts/today_spam_mail")
+	os.system("sed '/C=\"250 2.0.0 Ok: queued as/d' all_mails > bad_mails")
+	os.system("grep \"$(date --rfc-3339=date)\" /var/www/scripts/bad_mails > /var/www/scripts/today_spam_mail")
 	f = open('/var/www/scripts/today_spam_mail')
 	li = []
 	for ln in f:
@@ -142,7 +143,8 @@ def bon_mail():
 # Fonction compte les spams par jour dans all_spams
 
 def spam_mail():
-	f = open('/var/www/scripts/all_spams')
+	os.system("sed '/C=\"250 2.0.0 Ok: queued as/d' all_mails > bad_mails")
+	f = open('/var/www/scripts/bad_mails')
 	li = []
 	for ln in f:
 		li.append(ln)
@@ -150,7 +152,7 @@ def spam_mail():
 	li2 = []
 	for i in li:
 		i = i.split()
-		li2.append(i[5])
+		li2.append(i[0])
 	h = {}
 	while li2:
 		a = li2.count(li2[0])

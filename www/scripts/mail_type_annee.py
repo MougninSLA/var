@@ -65,7 +65,8 @@ def bon_mail_annee():
 
 # Fonction qui compte les spams par année dans all_spams
 def spam_mail_annee():
-        f = open('/var/www/scripts/all_spams')
+        os.system("sed '/C=\"250 2.0.0 Ok: queued as/d' all_mails > bad_mails")
+        f = open('/var/www/scripts/bad_mails')
         li = []
         for ln in f:
                 li.append(ln)

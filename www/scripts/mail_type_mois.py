@@ -67,7 +67,8 @@ def bon_mail_mois():
 # Fonction compte les spams par mois dans all_spams
 
 def spam_mail_mois():
-        f = open('/var/www/scripts/all_spams')
+        os.system("sed '/C=\"250 2.0.0 Ok: queued as/d' all_mails > bad_mails")
+        f = open('/var/www/scripts/bad_mails')
         li = []
         for ln in f:
                 li.append(ln)
@@ -75,7 +76,7 @@ def spam_mail_mois():
         lim = []
         for i in li:
                 i = i.split()
-                y = i[5].split("-")
+                y = i[0].split("-")
                 del(y[2])
                 y = "-".join(y)
                 lim.append(y)
