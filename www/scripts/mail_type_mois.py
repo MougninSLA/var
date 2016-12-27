@@ -75,7 +75,7 @@ def spam_mail_mois():
         lim = []
         for i in li:
                 i = i.split()
-                y = i[0].split("-")
+                y = i[5].split("-")
                 del(y[2])
                 y = "-".join(y)
                 lim.append(y)
