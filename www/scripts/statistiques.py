@@ -25,7 +25,7 @@ if reponse == "1":
 		if not key in today_spam:
 			today_spam[key] = 0
 
-	if len(today) == 0:
+	if len(today_all) == 0:
 		# On récupère la date d'aujourd'hui
 		jour = date.today()
 		today = str(jour.year)+"-"+str(jour.month)+"-"+str(jour.day)
