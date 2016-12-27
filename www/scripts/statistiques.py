@@ -130,6 +130,11 @@ elif reponse == "3":
 	monthly_bon = bon_mail_mois()
 	monthly_spam = spam_mail_mois()
 
+	print("Bon mails")
+	print(monthly_bon)
+	print("spam")
+	print(monthly_spam)
+
 	# On vérifie et on complète avec les dates manquantes dans le dictionnaire
 	for key in monthly_all.keys():
 		if not key in monthly_bon:
