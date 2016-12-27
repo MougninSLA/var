@@ -2,7 +2,7 @@
 
 import os
 from del_lignes import del_lines, del_lignes_vides
-from retirer_doublon import del_doublon
+from retirer_doublon import del_doublon, del_doublon_spam
 
 #backup pour les tests
 os.system("""cp /var/www/scripts/all_mails /var/www/scripts/all_mails.old
@@ -10,10 +10,14 @@ cp /var/www/scripts/all_spams all_spams.old""")
 
 # On récupère les bon mails envoyé ans all_mails
 os.system("grep 'C=\"250 2.0.0 Ok: queued as' /var/log/exim4/mainlog >> /var/www/scripts/all_mails")
-# On récupère les spams reçu dans all_spams
-os.system("ls -la --full-time /var/spool/sa-exim/SAteergrube/new >> /var/www/scripts/all_spams")
+# On récupère la liste des spams courants dans le dossier
+os.system("ls -la --full-time /var/spool/sa-exim/SAteergrube/new > /var/www/scripts/all_spams2")
 # On supprime les trois premières lignes du fichiers car elles ne sont pas utiles
 del_lines()
+# On récupère les spams reçu dans all_spams
+os.system("cat /var/www/scripts/all_spams2 >> /var/www/scripts/all_spams")
+# On retire les doublons dans le fichier all_spams
+del_doublon_spam()
 # On ajoute la liste des spams reçu à celle des bon mails dans all_mails
 os.system("cat /var/www/scripts/all_spams | cut -d\" \" -f7,10 >> /var/www/scripts/all_mails")
 # On supprime les doublons dans le fichier all_mails

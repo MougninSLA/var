@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 def del_lines():
-	with open("/var/www/scripts/all_spams", "r") as test3:
+	with open("/var/www/scripts/all_spams2", "r") as test3:
 		# On récupère le contenu de test3 pour supprimer les 3 premières lignes
 		test3_str = ''.join(test3.readlines()[3:]) 
 
-	with open("/var/www/scripts/all_spams", "w") as all_spams:
+	with open("/var/www/scripts/all_spams2", "w") as all_spams:
         # On écrit la modification
 		all_spams.write(test3_str)
 

@@ -15,6 +15,7 @@ def del_doublon():
         # On écrit la modification
 		all_mails.write(all_mails_str)
 
+def del_doublon_spam():
 	v = list()
 	with open("/var/www/scripts/all_spams", "r") as all_spams:
 		# On supprime les doublons du fichier
