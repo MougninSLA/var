@@ -22,13 +22,12 @@ def today_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les mails totaux reçus aujourd'hui")
-
+	liste_today_all = {}
 	for g in v:
 		for key in h.keys():
 			if g == key:
-				print("Le ",key,", il y a eu ",h[key]," mail(s)")
-
+				liste_today_all[key] = h[key]
+	return liste_today_all
 
 # Fonction qui range et compte les bon mails du jour dans lequel nous sommes dans today_bon_mail
 def today_bon_mail():
@@ -51,11 +50,12 @@ def today_bon_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les mails valides totaux reçus aujourd'hui")
+	liste_today_bon = {}
 	for g in v:
 		for key in h.keys():
 			if g == key:
-				print("Le ",key,", il y a eu ",h[key]," bon mail(s)")
+				liste_today_bon[key] = h[key]
+	return liste_today_bon
 
 # Fonction qui range et compte les spams du jour dans lequel nous sommes dans today_spam_mail
 def today_spam_mail():
@@ -77,11 +77,12 @@ def today_spam_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les spams totaux reçus aujourd'hui")
+	liste_today_spam = {}
 	for g in v:
 		for key in h.keys():
-			if g == key:
-				print("Le ",key,", il y a eu ",h[key]," spam(s)")	
+			if g == key:	
+				liste_today_spam[key] = h[key]
+	return liste_today_spam
 
 # Fonction qui range et compte tout les mails dans all_mails
 f = open("/var/www/scripts/all_mails")
@@ -104,11 +105,12 @@ def daily_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les mails totaux reçus chaque jour")
+	liste_daily_all = {}
 	for g in v:
 		for key in h.keys():
 			if g == key:
-				print("Le ",key,", il y a eu ",h[key]," mail(s)")
+				liste_daily_all[key] = h[key]
+	return liste_daily_all
 
 # Fonction qui range et compte les bon mails par jour dans good_mail
 def bon_mail():
@@ -130,11 +132,12 @@ def bon_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les mails valides totaux reçus chaque jour")
+	liste_daily_bon = {}
 	for g in v:
 		for key in h.keys():
 			if g == key:
-				print("Le ",key,", il y a eu ",h[key]," bon mail(s)")
+				liste_daily_bon[key] = h[key]
+	return liste_daily_bon
 
 # Fonction compte les spams par jour dans all_spams
 
@@ -156,8 +159,9 @@ def spam_mail():
 		li2 = [y for y in li2 if y != i]
 	v = sorted(h)
 
-	print("Les spams totaux reçus chaque jour")
+	liste_daily_spam = {}
 	for g in v:
 		for key in h.keys():
 			if g == key:
-				print("Le ",key,", il y a eu ",h[key]," spam(s)")
+				liste_daily_spam[key] = h[key]
+	return liste_daily_spam

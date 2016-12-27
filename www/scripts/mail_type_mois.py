@@ -26,11 +26,12 @@ def monthly_mail():
                 lim = [y for y in lim if y != i]
         v = sorted(s)
 
-        print("Les mails totaux reçus chaque mois")
+        liste_monthly_all = {}
         for g in v:
                 for key in s.keys():
                         if g == key:
-                                print("Le ",key,", il y a eu ",s[key]," mail(s)")
+                                liste_monthly_all[key] = s[key]
+        return liste_monthly_all
 
 # Fonction qui range et compte les bon mails par mois dans good_mail
 def bon_mail_mois():
@@ -56,11 +57,12 @@ def bon_mail_mois():
                 lim = [y for y in lim if y != i]
         v = sorted(s)
 
-        print("Les mails valides totaux reçus chaque mois")
+        liste_monthly_bon = {}
         for g in v:
                 for key in s.keys():
                         if g == key:
-                                print("Le mois du ",key,", il y a eu ",s[key]," bon mail(s)")
+                                liste_monthly_bon[key] = s[key]
+        return liste_monthly_bon
 
 # Fonction compte les spams par mois dans all_spams
 
@@ -86,8 +88,9 @@ def spam_mail_mois():
                 lim = [y for y in lim if y != i]
         v = sorted(s)
 
-        print("Les spams totaux reçus chaque mois")
+        liste_monthly_spam = {}
         for g in v:
                 for key in s.keys():
                         if g == key:
-                                print("Le mois du ",key,", il y a eu ",s[key]," spam(s)")
+                                liste_monthly_spam[key] = s[key]
+        return liste_monthly_spam

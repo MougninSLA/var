@@ -25,11 +25,12 @@ def year_mail():
                 lia = [y for y in lia if y != i]
         v = sorted(z)
 
-        print("Les mails totaux reçus chaque année")
+        liste_year_all = {}
         for g in v:
                 for key in z.keys():
                         if g == key:
-                                print("L'année ",key,", il y a eu ",z[key]," mail(s)")
+                                liste_year_all[key] = z[key]
+        return liste_year_all
 
 # Fonction qui range et compte les bon mails par année dans good_mail
 def bon_mail_annee():
@@ -54,11 +55,13 @@ def bon_mail_annee():
                 i = lia[0]
                 lia = [y for y in lia if y != i]
         v = sorted(z)
-        print("Les mails valides totaux reçus chaque année")
+        
+        liste_year_bon = {}
         for g in v:
                 for key in z.keys():
                         if g == key:
-                                print("L'année ",key,", il y a eu ",z[key]," bon mail(s)")
+                                liste_year_bon[key] = z[key]
+        return liste_year_bon
 
 # Fonction qui compte les spams par année dans all_spams
 def spam_mail_annee():
@@ -83,8 +86,9 @@ def spam_mail_annee():
                 lia = [y for y in lia if y != i]
         v = sorted(z)
 
-        print("Les spams totaux reçus chaque année")
+        liste_year_spam = {}
         for g in v:
                 for key in z.keys():
                         if g == key:
-                                print("L'année ",key,", il y a eu ",z[key]," spam(s)")
+                                liste_year_spam[key] = z[key]
+        return liste_year_spam
