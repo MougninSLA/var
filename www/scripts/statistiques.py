@@ -134,11 +134,11 @@ elif reponse == "2":
 
 	i, j = 0, 0
 	#while i < 6:
-		while j < len(daily_all):
-			print("Chaque ligne ",j," du tableau")
-			print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
-			j += 1
-			#cursor.execute("""INSERT INTO mails_journaliers (date, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (""",lst[i][j]""")""")
+	while j < len(daily_all):
+		print("Chaque ligne ",j," du tableau")
+		print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
+		j += 1
+		#cursor.execute("""INSERT INTO mails_journaliers (date, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (""",lst[i][j]""")""")
 elif reponse == "3":
 	monthly_all = monthly_mail()
 	monthly_bon = bon_mail_mois()
