@@ -8,7 +8,7 @@ import mysql.connector
 
 conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="test1")
 cursor = conn.cursor()
-conn.close()
+#conn.close()
 
 
 print("1- Voir les statistiques d'aujourd'hui")
@@ -132,13 +132,25 @@ elif reponse == "2":
 
 	#print(lst)
 
-	i, j = 0, 0
+	j = 0
 	#while i < 6:
+	requete_jour = "SELECT jours FROM mails_journaliers;"
+	cursor.execute(requete_jour)
+	rows = cursor.fetchall()
+	jours = []
+	for row in rows:
+		jours.append("{0}".format(row[0]))
+
 	while j < len(daily_all):
-		print("Chaque ligne ",j," du tableau")
-		print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
+		if not lst[0][j] in jours:
+			print("Chaque ligne ",j," du tableau")
+			print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
+			requete=("INSERT INTO mails_journaliers (jours, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
+			data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
+			cursor.execute(requete, data_requete)
 		j += 1
-		#cursor.execute("""INSERT INTO mails_journaliers (date, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (""",lst[i][j]""")""")
+	conn.commit()
+		
 elif reponse == "3":
 	monthly_all = monthly_mail()
 	monthly_bon = bon_mail_mois()
