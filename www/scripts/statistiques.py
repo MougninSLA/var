@@ -4,6 +4,12 @@ from mail_type_jour import *
 from mail_type_mois import *
 from mail_type_annee import *
 from datetime import date
+import mysql.connector
+
+conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="test1")
+cursor = conn.cursor()
+conn.close()
+
 
 print("1- Voir les statistiques d'aujourd'hui")
 print("2- Voir les statistiques de chaque jour")
@@ -124,7 +130,15 @@ elif reponse == "2":
 				lst[3][h] = daily_spam[key]
 				h += 1
 
-	print(lst)
+	#print(lst)
+
+	i, j = 0, 0
+	#while i < 6:
+		while j < len(daily_all):
+			print("Chaque ligne ",j," du tableau")
+			print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
+			j += 1
+			#cursor.execute("""INSERT INTO mails_journaliers (date, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (""",lst[i][j]""")""")
 elif reponse == "3":
 	monthly_all = monthly_mail()
 	monthly_bon = bon_mail_mois()
