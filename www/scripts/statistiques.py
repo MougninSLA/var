@@ -8,8 +8,6 @@ import mysql.connector
 
 conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="test1")
 cursor = conn.cursor()
-#conn.close()
-
 
 print("1- Voir les statistiques d'aujourd'hui")
 print("2- Voir les statistiques de chaque jour")
@@ -251,3 +249,5 @@ elif reponse == "4":
 
 else:
 	print("Entrer une valeur valide")
+
+conn.close()
