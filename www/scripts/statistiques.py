@@ -271,12 +271,13 @@ elif reponse == "4":
 	h = 0
 	for g in tri:
 		for key in year_spam.keys():
-			lst[3][h] = year_spam[key]
-			# On calcule la fréquence des spams
-			lst[5][h] = (round(lst[3][h] / lst[1][h],2)) * 100
-			h += 1
+			if g == key:
+				lst[3][h] = year_spam[key]
+				# On calcule la fréquence des spams
+				lst[5][h] = (round(lst[3][h] / lst[1][h],2)) * 100
+				h += 1
 
-	print(lst)
+	#print(lst)
 
 	j = 0
 
