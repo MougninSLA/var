@@ -118,6 +118,8 @@ elif reponse == "2":
 		for key in daily_bon.keys():
 			if g == key:
 				lst[2][h] = daily_bon[key]
+				# On effectue le calcule des fréquences pour les bons mails
+				lst[4][h] = round(lst[2][h] / lst[1][h],2) 
 				h += 1
 
 	# On remplit le tableau final avec les nombres de spams			
@@ -126,9 +128,11 @@ elif reponse == "2":
 		for key in daily_spam.keys():
 			if g == key:
 				lst[3][h] = daily_spam[key]
+				# On effectue le calcule des fréquences pour les spams mails
+				lst[5][h] = round(lst[3][h] / lst[1][h],2)
 				h += 1
 
-	#print(lst)
+	print(lst)
 
 	j = 0
 	#while i < 6:
