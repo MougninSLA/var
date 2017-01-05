@@ -281,7 +281,7 @@ elif reponse == "4":
 
 	j = 0
 
-	requete_annees = "SELECT annees FROM mails_annuels;"
+	requete_annees = "SELECT annee FROM mails_annuels;"
 	cursor.execute(requete_annees)
 	rows = cursor.fetchall()
 	annees = []
