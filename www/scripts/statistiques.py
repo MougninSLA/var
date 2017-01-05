@@ -132,7 +132,7 @@ elif reponse == "2":
 				lst[5][h] = (round(lst[3][h] / lst[1][h],2)) * 100
 				h += 1
 
-	#print(lst)
+	print(lst)
 
 	j = 0
 	#while i < 6:
