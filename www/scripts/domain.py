@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
-import os, re
+import os, re, mysql.connector 
+
+conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="test1")
+cursor = conn.cursor()
+
 domaines = []
 os.system("ls /var/spool/sa-exim/SAteergrube/new/ > /var/www/scripts/domaine")
 fichier = open("/var/www/scripts/domaine", "r")
@@ -28,9 +32,29 @@ while domaines:
 	i = domaines[0]
 	domaines = [y for y in domaines if y != i]
 #print(nb_spam)
-print("============================================")
-print("====  Domaines  ====  Nombre de spams   ====")
-print("============================================")
+#print("============================================")
+#print("====  Domaines  ====  Nombre de spams   ====")
+#print("============================================")
+
+requete = ("SELECT nom_spamers FROM domains_spamers;")
+cursor.execute(requete)
+rows = cursor.fetchall()
+
+domains = []
+for row in rows:
+	domains.append("{0}".format(row[0]))
+
 for key in nb_spam.keys():
-	print("====  ",key,"  ====  ",nb_spam[key],"  ====")
-print("============================================")
+	if not key in domains:
+		requete = ("INSERT INTO domains_spamers (nom_spamers, nb_spams) VALUES (%s, %s)")
+		data_requete = (key, nb_spam[key])
+		cursor.execute(requete, data_requete)
+	else:
+		requete = ("UPDATE domains_spamers SET nb_spams = %s WHERE nom_spamers = %s")
+		cursor.execute(requete, (nb_spam[key], key))
+conn.commit()
+
+conn.close()
+
+	#print("====  ",key,"  ====  ",nb_spam[key],"  ====")
+#print("============================================")
