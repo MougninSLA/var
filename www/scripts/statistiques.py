@@ -119,8 +119,7 @@ elif reponse == "2":
 			if g == key:
 				lst[2][h] = daily_bon[key]
 				# On effectue le calcule des fréquences pour les bons mails
-				lst[4][h] = (round(lst[2][h] / lst[1][h],2)) * 100
-				print (lst[2][h],"/",lst[1][h]," = ",lst[4][h]) 
+				lst[4][h] = (round(lst[2][h] / lst[1][h],2)) * 100 
 				h += 1
 
 	# On remplit le tableau final avec les nombres de spams			
@@ -194,6 +193,8 @@ elif reponse == "3":
 		for key in monthly_bon.keys():
 			if g == key:
 				lst[2][h] = monthly_bon[key]
+				# On calcule la fréquence de bon mails
+				lst[4][h] = (round(lst[2][h] / lst[1][h],2)) * 100
 				h += 1
 
 	# On remplit le tableau final avec les nombres de spams
@@ -202,9 +203,30 @@ elif reponse == "3":
 		for key in monthly_spam.keys():
 			if g == key:
 				lst[3][h] = monthly_spam[key]
+				# On calcule la fréquence des spams
+				lst[5][h] = (round(lst[3][h] / lst[1][h],2)) * 100
 				h += 1
 
-	print(lst)
+	#print(lst)
+
+	j = 0
+
+	requete_mois = "SELECT mois FROM mails_mensuels;"
+	cursor.execute(requete_mois)
+	rows = cursor.fetchall()
+	mois = []
+	for row in rows:
+		mois.append("{0}".format(row[0]))
+
+	while j < len(monthly_all):
+		if not lst[0][j] in mois:
+			print("Chaque ligne ",j," du tableau")
+			print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
+			requete = ("INSERT INTO mails_mensuels (mois, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
+			data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
+			cursor.execute(requete, data_requete)
+		j += 1
+	conn.commit()
 
 elif reponse == "4":
 	year_all = year_mail()
@@ -241,6 +263,8 @@ elif reponse == "4":
 		for key in year_bon.keys():
 			if g == key:
 				lst[2][h] = year_bon[key]
+				# On calcule la fréquence des bon mails
+				lst[4][h] = (round(lst[2][h] / lst[1][h],2)) * 100
 				h += 1
 
 	# On remplit le tableau final avec les nombres de spams
@@ -248,9 +272,30 @@ elif reponse == "4":
 	for g in tri:
 		for key in year_spam.keys():
 			lst[3][h] = year_spam[key]
+			# On calcule la fréquence des spams
+			lst[5][h] = (round(lst[3][h] / lst[1][h],2)) * 100
 			h += 1
 
-	print(lst)
+	#print(lst)
+
+	j = 0
+
+	requete_annees = "SELECT annees FROM mails_annuels;"
+	cursor.execute(requete_annees)
+	rows = cursor.fetchall()
+	annees = []
+	for row in rows:
+		annees.append("{0}".format(row[0]))
+
+	while j < len(year_all):
+		if not lst[0][j] in annees:
+			print("Chaque ligne ",j," du tableau")
+			print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
+			requete = ("INSERT INTO mails_annuels (annee, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
+			data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
+			cursor.execute(requete, data_requete)
+		j += 1
+	conn.commit()
 
 else:
 	print("Entrer une valeur valide")
