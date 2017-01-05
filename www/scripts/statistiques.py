@@ -132,7 +132,7 @@ elif reponse == "2":
 				lst[5][h] = (round(lst[3][h] / lst[1][h],2)) * 100
 				h += 1
 
-	print(lst)
+	#print(lst)
 
 	j = 0
 	#while i < 6:
@@ -150,6 +150,9 @@ elif reponse == "2":
 			requete=("INSERT INTO mails_journaliers (jours, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
 			data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
 			cursor.execute(requete, data_requete)
+		else:
+			requete = ("UPDATE mails_journaliers SET mails_totaux = %s, bon_mails = %s, spam_mails = %s, frequence_bon_mails = %s, frequence_spam_mails = %s WHERE jours = %s")
+			cursor.execute(requete, (lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j], lst[0][j]))
 		j += 1
 	conn.commit()
 		
@@ -220,6 +223,9 @@ elif reponse == "3":
 			requete = ("INSERT INTO mails_mensuels (mois, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
 			data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
 			cursor.execute(requete, data_requete)
+		else:
+			requete = ("UPDATE mails_mensuels SET mails_totaux = %s, bon_mails = %s, spam_mails = %s, frequence_bon_mails = %s, frequence_spam_mails = %s WHERE mois = %s")
+			cursor.execute(requete, (lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j], lst[0][j]))
 		j += 1
 	conn.commit()
 
@@ -290,6 +296,9 @@ elif reponse == "4":
 			requete = ("INSERT INTO mails_annuels (annee, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
 			data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
 			cursor.execute(requete, data_requete)
+		else:
+			requete = ("UPDATE mails_annuels SET mails_totaux = %s, bon_mails = %s, spam_mails = %s, frequence_bon_mails = %s, frequence_spam_mails = %s WHERE annee = %s")
+			cursor.execute(requete, (lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j], lst[0][j]))
 		j += 1
 	conn.commit()
 
