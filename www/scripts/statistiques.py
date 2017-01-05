@@ -130,7 +130,7 @@ elif reponse == "2":
 			if g == key:
 				lst[3][h] = daily_spam[key]
 				# On effectue le calcule des fréquences pour les spams mails
-				lst[5][h] = round(lst[3][h] / lst[1][h],2)
+				lst[5][h] = (round(lst[3][h] / lst[1][h],2)) * 100
 				h += 1
 
 	#print(lst)
