@@ -2,7 +2,7 @@
 
 import os, re, mysql.connector 
 
-conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="test1")
+conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="sym")
 cursor = conn.cursor()
 
 domaines = []
@@ -32,9 +32,6 @@ while domaines:
 	i = domaines[0]
 	domaines = [y for y in domaines if y != i]
 #print(nb_spam)
-#print("============================================")
-#print("====  Domaines  ====  Nombre de spams   ====")
-#print("============================================")
 
 requete = ("SELECT nom_spamers FROM domains_spamers;")
 cursor.execute(requete)
@@ -55,6 +52,3 @@ for key in nb_spam.keys():
 conn.commit()
 
 conn.close()
-
-	#print("====  ",key,"  ====  ",nb_spam[key],"  ====")
-#print("============================================")
