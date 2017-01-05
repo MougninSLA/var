@@ -120,7 +120,7 @@ elif reponse == "2":
 				lst[2][h] = daily_bon[key]
 				# On effectue le calcule des fréquences pour les bons mails
 				lst[4][h] = round(lst[2][h] / lst[1][h],2)
-				print (lst[2][h],"-",lst[1][h]) 
+				print (lst[2][h],"/",lst[1][h]," = ",lst[4][h]) 
 				h += 1
 
 	# On remplit le tableau final avec les nombres de spams			
