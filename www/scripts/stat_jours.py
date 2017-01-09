@@ -74,8 +74,8 @@ while j < len(daily_all):
 		data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
 		cursor.execute(requete, data_requete)
 	else:
-		requete = ("UPDATE mails_journaliers SET mails_totaux = %s, bon_mails = %s, spam_mails = %s, frequence_bon_mails = %s, frequence_spam_mails = %s WHERE jours = %s")
-		cursor.execute(requete, (lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j], lst[0][j]))
+		requete2 = ("UPDATE mails_journaliers SET mails_totaux = %s, bon_mails = %s, spam_mails = %s, frequence_bon_mails = %s, frequence_spam_mails = %s WHERE jours = %s")
+		cursor.execute(requete2, (lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j], lst[0][j]))
 	j += 1
 conn.commit()
 
