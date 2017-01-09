@@ -5,7 +5,7 @@ import re
 from robobrowser import RoboBrowser
 
 browser = RoboBrowser()
-browser.open("https://www.celio.com/register")
+browser.open("https://www.celio.com/")
 
 # ON sera dirigé sur la page d'inscription de celio
 # Et on récupère le formulaire
