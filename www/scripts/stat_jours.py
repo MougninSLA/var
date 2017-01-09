@@ -4,7 +4,7 @@ from mail_type_jour import *
 from datetime import date
 import mysql.connector
 
-conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="test1")
+conn = mysql.connector.connect(host="localhost",user="root",password="africainetfier", database="sym")
 cursor = conn.cursor()
 
 daily_all = daily_mail()
