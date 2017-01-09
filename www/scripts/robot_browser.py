@@ -1,4 +1,5 @@
 #!/usr/bin/env python2
+# -*- coding: ascii -*-
 
 import re
 from robobrowser import RoboBrowser
