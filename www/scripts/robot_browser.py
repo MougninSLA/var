@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# -*- coding: ascii -*-
+# -*- coding: iso-8859-15 -*-
 
 import re
 from robobrowser import RoboBrowser
