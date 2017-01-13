@@ -70,11 +70,11 @@ while j < len(year_all):
 	if not lst[0][j] in annees:
 		print("Chaque ligne ",j," du tableau")
 		print(lst[0][j]," ",lst[1][j]," ",lst[2][j]," ",lst[3][j]," ",lst[4][j]," ",lst[5][j])
-		requete = ("INSERT INTO mails_annuels (annee, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
+		requete = ("INSERT INTO mails_annuels (annees, mails_totaux, bon_mails, spam_mails, frequence_bon_mails, frequence_spam_mails) VALUES (%s, %s, %s, %s, %s, %s)")
 		data_requete = (lst[0][j], lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j])
 		cursor.execute(requete, data_requete)
 	else:
-		requete = ("UPDATE mails_annuels SET mails_totaux = %s, bon_mails = %s, spam_mails = %s, frequence_bon_mails = %s, frequence_spam_mails = %s WHERE annee = %s")
+		requete = ("UPDATE mails_annuels SET mails_totaux = %s, bon_mails = %s, spam_mails = %s, frequence_bon_mails = %s, frequence_spam_mails = %s WHERE annees = %s")
 		cursor.execute(requete, (lst[1][j], lst[2][j], lst[3][j], lst[4][j], lst[5][j], lst[0][j]))
 	j += 1
 conn.commit()
