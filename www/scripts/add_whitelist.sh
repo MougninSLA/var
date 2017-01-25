@@ -12,7 +12,7 @@ then
         /bin/echo "Erreur ! Entrer en argument l'adresse à blacklister"
 else
         #Copie de la ligne
-        /bin/echo "whitelist_from@$1" >> /var/lists/whitelist.cf
+        /bin/echo "whitelist_from *@$1" >> /var/lists/whitelist.cf
                 
 	#Redemarrage de Spamassassin
         /etc/init.d/spamassassin restart
